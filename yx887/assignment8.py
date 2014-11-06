@@ -7,12 +7,12 @@ def main():
     positions = [1, 10, 100, 1000]
     ntrials = 10000
     invest_instrument = Invest(1000)    # Create an instance with total asset 1000
-    results = ['mean std']    # List to store simulation results
+    results = ['position mean std']    # List to store simulation results
     
     for position in positions:
         print 'Simulating with position = {} ...'.format(position)
         daily_ret = invest_instrument.simulate(ntrials, position)
-        results.append(' '.join(map(str, [np.mean(daily_ret), np.std(daily_ret)])))
+        results.append(' '.join(map(str, [position, np.mean(daily_ret), np.std(daily_ret)])))
         
         p = plt.figure()
         # Uncomment if you like xkcd style

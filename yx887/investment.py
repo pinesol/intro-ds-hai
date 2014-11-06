@@ -26,7 +26,8 @@ class Invest(object):
         position_value = self.asset / position    # Value per share given position
         cumu_ret = []
         for trial in xrange(ntrials):
-            cumu_ret.append(sum(np.random.uniform(size=position)>0.49) * position_value * 2)
+            gain = np.random.uniform(size=position) > 0.49    # Gain money?
+            cumu_ret.append(gain.sum() * position_value * 2)
 
         daily_ret = [ret/1000-1 for ret in cumu_ret]
         return daily_ret
