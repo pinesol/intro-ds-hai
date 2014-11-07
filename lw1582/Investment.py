@@ -9,6 +9,12 @@ def investment(positions, num_trials):
 
      the program returns the outcomes of num_trials times'''
   final_ret = np.zeros((num_trials,1))
+  
+  '''for every position, using the position value:
+  1. calculate cumulative return that day with 51% chance of doubling and 49% of losing everythin
+  2. calculate daily return based on cumulative return
+  
+  if there are 10 positions, each would be a random independent trial and the cumulative return is the sum of the outcome of the 10 positions'''
   for position in positions:
     position_value = 1000 / position
     
