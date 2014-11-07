@@ -14,7 +14,7 @@ def result(positions, num_trials):
   ret_std = np.std(final_result,axis = 0)
   
   f = open("results.txt","w")
-  
+  f.truncate()  
   i = 0
   while i < len(positions):
     f.write("position: " + str(positions[i]) + "\nmean: " + str(ret_mean[i]) + "\nstd: " + str(ret_std[i]) + "\n")

@@ -41,23 +41,3 @@ def main():
 if __name__ == "__main__":
   main()
   
-
-'''
-    #iwhile trial <  num_trials:
-     # position_to_bet = 0
-      while position_to_bet < position:
-        odd_today = numpy.random.rand().
-
-        if odd_today > 0.51:
-          ret[position_to_bet] = position_value * 2
-        else:
-          ret[position_to_bet] = 0
-
-      cumu_ret[trial] = np.sum(ret)
-
-      daily_ret[trial] = (cumu_ret[trial]/1000) - 1
-      
-      trial +=1
-
-    positions_daily_return.append(daily_ret)
-'''
