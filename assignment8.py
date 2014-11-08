@@ -51,6 +51,7 @@ def visualizeRet_to_pdf(positions,num_trails):
         plt.hist(daily_ret,100,range=[-1.0,1.0])
         plt.ylabel("number of trails")
         plt.xlabel("daily net-return")
+        #plt.show()
         if position==1:plt.savefig('histogram_0001_pos.pdf')
         elif position==10:plt.savefig('histogram_0010_pos.pdf')
         elif position==100:plt.savefig('histogram_0100_pos.pdf')
@@ -80,10 +81,11 @@ def stat_to_file(position,num_trails):
 
 
 if __name__=='__main__':
+    
     stat_to_file(positions,10000)
     visualizeRet_to_pdf(positions,10000)
 
-#visualize_ret([1,10,100,1000],100)
+
     
     
     
