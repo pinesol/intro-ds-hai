@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def main():
-    '''This program stimulate each position, plot the results, store the means and standard deviations in a text file.'''
+    '''This program stimulates each position, plot the results, store the means and standard deviations in a text file.'''
     position = [1, 10, 100, 1000]
     num_trials = 10000
     results = open('results.txt','w') #open a file to store mean and standard deviation

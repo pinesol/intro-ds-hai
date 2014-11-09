@@ -1,10 +1,10 @@
 
 import numpy as np
 def simulation(position, num_trials):
-    '''
+    '''This program stimulates the investment.
     Args:
-        position: a list of the number of shares to buy in parallel
-        num_trials: how many times to randomly repeat the test
+        position: a list of the number of shares to buy in parallel.
+        num_trials: how many times to randomly repeat the test.
     Returns:
         daily_ret_list: a list of daily return rate
     '''
