@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 
 
 def generate_return(position, num_trials):
-    # positions: the number of shares to buy in parallel
+    # position: the number of shares to buy in parallel
     # num_trials: how many times to randomly repeat the test
-    # This function returns the result of each day
+    # This function returns the investment result of each day 
 
     cumu_ret = []
     position_value = 1000.0 / position
