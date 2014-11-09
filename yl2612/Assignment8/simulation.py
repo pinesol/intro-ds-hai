@@ -6,7 +6,7 @@ def simulation(position, num_trials):
         position: a list of the number of shares to buy in parallel.
         num_trials: how many times to randomly repeat the test.
     Returns:
-        daily_ret_list: a list of daily return rate
+        daily_ret_list: a list of daily return rate.
     '''
     position_value = 1000 / position
     daily_ret = []
