@@ -9,7 +9,7 @@ matplotlib.use("agg")
 import matplotlib.pyplot as plt
 
 #Simulation
-def Question_2(position, num_trials):
+def investment(position, num_trials):
 
 	result = {}
 
@@ -82,7 +82,7 @@ if __name__ == "__main__":
 	position = init_position(position)
 
 	#Run simulation
-	daily_ret =  Question_2(position, int(num_trials))
+	daily_ret =  investment(position, int(num_trials))
 
 	#Calculate mean and std
 	statsDataFrame =  stats_results(position, daily_ret)
