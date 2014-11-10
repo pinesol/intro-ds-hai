@@ -29,6 +29,10 @@ def main():
     for position in positions:
         plt.figure()
         plt.hist(result[position],bins=100,range=[-1,1])
+        plt.xlim(-1,1)
+        plt.xlabel('Daily return')
+        plt.ylabel('Frequency')
+        plt.title('histograms of position %d' % (position))
         file_name = "histogram_%04d_pos.pdf" % (position)
         plt.savefig(file_name)
         plt.close()
