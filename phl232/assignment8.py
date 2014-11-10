@@ -63,7 +63,7 @@ for numShares in positions:
     
     # Save Histogram
     outName = 'histogram_'+numstr.zfill(4)+'_pos'
-    pp = PdfPages(outName)
+    pp = PdfPages(outName+'.pdf')
     pp.savefig()
     pp.close()
     

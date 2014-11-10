@@ -1,16 +1,16 @@
 1 Share of $1000, numTrials = 10000
-mean :0.0176
-stdev: 0.9998
+mean :0.0236
+stdev: 0.9997
 
 10 Shares of $100, numTrials = 10000
-mean :0.0189
-stdev: 0.3142
+mean :0.0176
+stdev: 0.3171
 
 100 Shares of $10, numTrials = 10000
-mean :0.0204
-stdev: 0.099
+mean :0.0197
+stdev: 0.1001
 
 1000 Shares of $1, numTrials = 10000
-mean :0.0203
-stdev: 0.0318
+mean :0.0196
+stdev: 0.0316
 
