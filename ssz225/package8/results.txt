@@ -1,0 +1,8 @@
+For position 1
+ Mean is: 0.018 Standard Deviation is: 0.999837986876
+For position 10
+ Mean is: 0.02342 Standard Deviation is: 0.315416397164
+For position 100
+ Mean is: 0.01937 Standard Deviation is: 0.0993315815841
+For position 1000
+ Mean is: 0.0203188 Standard Deviation is: 0.0315351861666
