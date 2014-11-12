@@ -1,0 +1,14 @@
+      Mean by Position
+1             0.019761
+10            0.019846
+100           0.018080
+1000          0.015200
+
+[4 rows x 1 columns]
+      Std Dev by Position
+1                0.031484
+10               0.098894
+100              0.314673
+1000             0.999934
+
+[4 rows x 1 columns]
