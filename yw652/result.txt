@@ -1,0 +1,8 @@
+Position is 1
+The mean of the return is -0.0156, and the standard deviation is 0.999878312596
+Position is 10
+The mean of the return is -0.01972, and the standard deviation is 0.316877139598
+Position is 100
+The mean of the return is -0.020954, and the standard deviation is 0.099842725744
+Position is 1000
+The mean of the return is -0.0197186, and the standard deviation is 0.0315723108758
