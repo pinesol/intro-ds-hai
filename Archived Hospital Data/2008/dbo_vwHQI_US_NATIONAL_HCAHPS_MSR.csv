@@ -1,0 +1,30 @@
+"HCAHPS Question","HCAHPS Answer Description","HCAHPS Answer Percent"
+"How do patients rate the hospital overall?","Patients who gave a rating of 6 or lower (low)",11
+"How do patients rate the hospital overall?","Patients who gave a rating of 7 or 8 (medium)",25
+"How do patients rate the hospital overall?","Patients who gave a rating of 9 or 10 (high)",64
+"How often did doctors communicate well with patients?","Doctors always communicated well",80
+"How often did doctors communicate well with patients?","Doctors sometimes or never communicated well",5
+"How often did doctors communicate well with patients?","Doctors usually communicated well",15
+"How often did nurses communicate well with patients?","Nurses always communicated well",74
+"How often did nurses communicate well with patients?","Nurses sometimes or never communicated well",6
+"How often did nurses communicate well with patients?","Nurses usually communicated well",20
+"How often did patients receive help quickly from hospital staff?","Patients always received help as soon as they wanted",63
+"How often did patients receive help quickly from hospital staff?","Patients sometimes or never received help as soon as they wanted",11
+"How often did patients receive help quickly from hospital staff?","Patients usually received help as soon as they wanted",26
+"How often did staff explain about medicines before giving them to patients?","Staff always explained",59
+"How often did staff explain about medicines before giving them to patients?","Staff sometimes or never explained",22
+"How often did staff explain about medicines before giving them to patients?","Staff usually explained",19
+"How often was patients&#39; pain well controlled?","Pain was always well controlled",68
+"How often was patients&#39; pain well controlled?","Pain was sometimes or never well controlled",8
+"How often was patients&#39; pain well controlled?","Pain was usually well controlled",24
+"How often was the area around patients&#39; rooms kept quiet at night?","Always quiet at night",56
+"How often was the area around patients&#39; rooms kept quiet at night?","Sometimes or never quiet at night",13
+"How often was the area around patients&#39; rooms kept quiet at night?","Usually quiet at night",31
+"How often were the patients&#39; rooms and bathrooms kept clean?","Room was always clean",70
+"How often were the patients&#39; rooms and bathrooms kept clean?","Room was sometimes or never clean",10
+"How often were the patients&#39; rooms and bathrooms kept clean?","Room was usually clean",20
+"Were patients given information about what to do during their recovery at home?","No, staff did not give patients this information",20
+"Were patients given information about what to do during their recovery at home?","Yes, staff did give patients this information",80
+"Would patients recommend the hospital to friends and family?","NO, patients would not recommend the hospital (they probably would not or definitely would not recommend it)",6
+"Would patients recommend the hospital to friends and family?","YES, patients would definitely recommend the hospital",68
+"Would patients recommend the hospital to friends and family?","YES, patients would probably recommend the hospital",26

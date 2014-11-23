@@ -1,0 +1,514 @@
+"State","Condition","Measure Name","Category","Number of Hospitals"
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",16
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",21
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",22
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",93
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",100
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",99
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",72
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",74
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",1
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",70
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",4
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",1
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",1
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",63
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",73
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",74
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",315
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",3
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",320
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",5
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",4
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",319
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",9
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",61
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",68
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",70
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",31
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",32
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",32
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",7
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",7
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",7
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",5
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",5
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",5
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",180
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",5
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",175
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",3
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",181
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",138
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",143
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",136
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",8
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",1
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",1
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",1
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",15
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",17
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",17
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",101
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",115
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",115
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",32
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",36
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",37
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",175
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",3
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",178
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",4
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",175
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",3
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",112
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",4
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",109
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",1
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",111
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",104
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",125
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",127
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",91
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",94
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",2
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",93
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",100
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",113
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",1
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",116
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",2
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",61
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",3
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",61
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",3
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",61
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",45
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",46
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",1
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",44
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",36
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",36
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",36
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",125
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",126
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",2
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",126
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",114
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",126
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",129
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",108
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",111
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",2
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",112
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",2
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",1
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",1
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",1
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",76
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",92
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",94
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",41
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",56
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",60
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",103
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",107
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",1
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",105
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",3
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",35
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",42
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",42
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",68
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",84
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",83
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",2
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",25
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",26
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",26
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",73
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",72
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",1
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",71
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",2
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",38
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",39
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",42
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",26
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",31
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",32
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",3
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",181
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",7
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",179
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",3
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",5
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",181
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",5
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",156
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",156
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",4
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",151
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",3
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",100
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",115
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",113
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",2
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",52
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",54
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",57
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",159
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",159
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",4
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",153
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",5
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",46
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",47
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",47
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",10
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",10
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",10
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",55
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",56
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",56
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",2
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",40
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",52
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",55
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",114
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",114
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",115
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",3
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",315
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",3
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",346
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",4
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",2
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",349
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",5
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",30
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",40
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",39
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",79
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",78
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",3
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",78
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",4
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",2
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",2
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",2
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",13
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",14
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",13
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",75
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",82
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",86
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",115
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",120
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",119
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",1
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",50
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",52
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",53
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",23
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",26
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",0
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",26
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",0
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",9
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",4302
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",41
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",4565
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",35
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Better than U.S. National Rate",41
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","No different than U.S. National Rate",4575
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates from Pneumonia","Worse than U.S. National Rate",74

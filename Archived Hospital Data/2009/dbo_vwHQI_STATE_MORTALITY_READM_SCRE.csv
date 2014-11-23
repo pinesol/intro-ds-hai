@@ -1,0 +1,1369 @@
+"State","Condition","Measure Name","Category","Number of Hospitals"
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",5
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",12
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"AK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"AK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",4
+"AK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",12
+"AK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",10
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",11
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",10
+"AK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",12
+"AK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",15
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",7
+"AK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"AK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"AK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",16
+"AK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",6
+"AK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",61
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",36
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"AL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"AL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",46
+"AL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",51
+"AL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",3
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",91
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",7
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"AL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"AL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",90
+"AL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",6
+"AL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",4
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",3
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",90
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",5
+"AL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",4
+"AL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"AL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",92
+"AL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"AL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",4
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",40
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",31
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",6
+"AR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"AR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",34
+"AR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",42
+"AR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",61
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",4
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",14
+"AR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"AR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",68
+"AR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",5
+"AR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",7
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",2
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",65
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"AR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",9
+"AR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"AR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",70
+"AR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"AR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",5
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",1
+"AS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",0
+"AS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",1
+"AS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",1
+"AS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",0
+"AS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"AS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",1
+"AS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",0
+"AS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",1
+"AS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",43
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",27
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"AZ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"AZ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",44
+"AZ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",24
+"AZ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",59
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",15
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",2
+"AZ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"AZ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",61
+"AZ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",14
+"AZ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",70
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",5
+"AZ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"AZ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"AZ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",73
+"AZ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",4
+"AZ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",6
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",235
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",92
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"CA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"CA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",208
+"CA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",120
+"CA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",17
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",258
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",54
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",18
+"CA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",9
+"CA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",285
+"CA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",47
+"CA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",5
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",18
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",250
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",48
+"CA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",36
+"CA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",8
+"CA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",295
+"CA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",48
+"CA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",2
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",35
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",28
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"CO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"CO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",28
+"CO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",35
+"CO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",57
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",15
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"CO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",57
+"CO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",13
+"CO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",2
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",61
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",10
+"CO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"CO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"CO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",63
+"CO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",10
+"CO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",9
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",21
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",2
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"CT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"CT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",27
+"CT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",2
+"CT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",2
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",4
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",28
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"CT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"CT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",30
+"CT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"CT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",1
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",5
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",27
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"CT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"CT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"CT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",27
+"CT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"CT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",5
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",5
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",2
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",5
+"DC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",2
+"DC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",2
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",5
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",5
+"DC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"DC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",2
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",7
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"DC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"DC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"DC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",5
+"DC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"DC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",2
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",4
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",0
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"DE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"DE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",5
+"DE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",0
+"DE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",4
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"DE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"DE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",4
+"DE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"DE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",4
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"DE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"DE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"DE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",5
+"DE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"DE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",7
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",148
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",26
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",5
+"FL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",4
+"FL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",140
+"FL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",38
+"FL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",3
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",13
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",161
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",8
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",3
+"FL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",14
+"FL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",162
+"FL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",8
+"FL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",2
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",20
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",158
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",6
+"FL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",4
+"FL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",3
+"FL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",174
+"FL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",7
+"FL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",5
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",85
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",55
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",3
+"GA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"GA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",70
+"GA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",72
+"GA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",4
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",127
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",8
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",6
+"GA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",9
+"GA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",128
+"GA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"GA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",2
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",127
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",2
+"GA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",15
+"GA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",3
+"GA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",139
+"GA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",2
+"GA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",0
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",0
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"GU      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"GU      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",0
+"GU      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",0
+"GU      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",1
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",1
+"GU      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"GU      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",0
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"GU      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"GU      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"GU      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",1
+"GU      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"GU      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",12
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",2
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"HI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",11
+"HI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",4
+"HI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",13
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",6
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",12
+"HI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",6
+"HI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",1
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",14
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",7
+"HI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"HI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"HI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",15
+"HI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",7
+"HI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",3
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",45
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",64
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"IA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"IA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",29
+"IA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",78
+"IA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",98
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",14
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",3
+"IA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",4
+"IA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",104
+"IA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",8
+"IA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",4
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",101
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",4
+"IA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",7
+"IA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"IA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",111
+"IA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",4
+"IA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",10
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",26
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",9
+"ID      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",25
+"ID      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",25
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",12
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"ID      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",26
+"ID      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",9
+"ID      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",31
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",5
+"ID      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"ID      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",5
+"ID      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",27
+"ID      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"ID      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",8
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",121
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",56
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"IL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"IL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",105
+"IL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",75
+"IL      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",6
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",24
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",151
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",8
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",4
+"IL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"IL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",154
+"IL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"IL      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",25
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",20
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",151
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",7
+"IL      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",8
+"IL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"IL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",154
+"IL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",7
+"IL      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",25
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",3
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",76
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",37
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"IN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",6
+"IN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",62
+"IN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",49
+"IN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",5
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",106
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",2
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",5
+"IN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",12
+"IN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",103
+"IN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"IN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",2
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",9
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",100
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",4
+"IN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",5
+"IN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",11
+"IN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",101
+"IN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"IN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",34
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",86
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"KS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"KS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",25
+"KS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",88
+"KS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",94
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",33
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"KS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",4
+"KS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",93
+"KS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",30
+"KS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",1
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",112
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",12
+"KS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",3
+"KS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"KS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",116
+"KS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",11
+"KS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",3
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",62
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",33
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"KY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"KY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",49
+"KY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",45
+"KY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",6
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",89
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",2
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",2
+"KY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"KY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",80
+"KY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"KY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",16
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",11
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",80
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"KY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",5
+"KY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"KY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",84
+"KY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",3
+"KY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",11
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",57
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",53
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"LA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"LA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",50
+"LA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",62
+"LA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",3
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",95
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",18
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",4
+"LA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",5
+"LA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",87
+"LA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",17
+"LA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",11
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",6
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",93
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",24
+"LA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",2
+"LA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",3
+"LA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",96
+"LA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",24
+"LA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",2
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",10
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",50
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",3
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"MA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"MA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",53
+"MA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",5
+"MA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",4
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",11
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",50
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",3
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"MA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"MA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",56
+"MA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",3
+"MA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",4
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",12
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",50
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",2
+"MA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"MA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"MA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",53
+"MA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",2
+"MA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",9
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",4
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",39
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",2
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"MD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"MD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",0
+"MD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",0
+"MD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",4
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",41
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",1
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"MD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",5
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",40
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",1
+"MD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"MD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"MD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",0
+"MD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"MD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",30
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",5
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"ME      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"ME      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",25
+"ME      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",11
+"ME      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",33
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",1
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"ME      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"ME      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",35
+"ME      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"ME      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",2
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",32
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"ME      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",2
+"ME      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"ME      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",35
+"ME      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"ME      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",10
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",82
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",36
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"MI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",2
+"MI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",81
+"MI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",46
+"MI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",14
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",106
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",7
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",4
+"MI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",7
+"MI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",111
+"MI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"MI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",7
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",12
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",111
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"MI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",5
+"MI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",6
+"MI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",118
+"MI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",3
+"MI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",4
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",5
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",41
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",80
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"MN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"MN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",34
+"MN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",92
+"MN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",5
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",101
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",24
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"MN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",3
+"MN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",105
+"MN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",22
+"MN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",1
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",4
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",117
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",10
+"MN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"MN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"MN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",120
+"MN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",10
+"MN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",3
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",67
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",42
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"MO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"MO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",56
+"MO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",53
+"MO      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",3
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",7
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",99
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",5
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",5
+"MO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"MO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",100
+"MO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",5
+"MO      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",9
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",8
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",97
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",5
+"MO      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",7
+"MO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"MO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",107
+"MO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"MO      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",5
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",1
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",1
+"MP      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",1
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",1
+"MP      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"MP      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",1
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"MP      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"MP      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"MP      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",1
+"MP      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"MP      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",36
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",51
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"MS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"MS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",26
+"MS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",57
+"MS      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",2
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",84
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",11
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"MS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"MS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",79
+"MS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",8
+"MS      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",8
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",83
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",8
+"MS      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",4
+"MS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"MS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",84
+"MS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",10
+"MS      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",4
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",2
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",9
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",39
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"MT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"MT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",8
+"MT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",39
+"MT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",26
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",32
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"MT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"MT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",31
+"MT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",27
+"MT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",46
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",15
+"MT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"MT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"MT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",45
+"MT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",15
+"MT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",4
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",83
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",22
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"NC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",2
+"NC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",72
+"NC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",31
+"NC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",5
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",95
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",9
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",3
+"NC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",12
+"NC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",89
+"NC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",8
+"NC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",3
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",2
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",95
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",6
+"NC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",10
+"NC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"NC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",104
+"NC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"NC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",3
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",12
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",26
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"ND      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"ND      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",9
+"ND      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",28
+"ND      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",29
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",14
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"ND      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",30
+"ND      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",12
+"ND      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",42
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"ND      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"ND      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"ND      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",41
+"ND      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",3
+"ND      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",18
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",63
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"NE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"NE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",17
+"NE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",60
+"NE      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",52
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",30
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",2
+"NE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"NE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",55
+"NE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",27
+"NE      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",75
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",6
+"NE      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",4
+"NE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",2
+"NE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",76
+"NE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",7
+"NE      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",22
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",3
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"NH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"NH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",18
+"NH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",8
+"NH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",23
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",1
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",2
+"NH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",3
+"NH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",22
+"NH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"NH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",21
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"NH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",5
+"NH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"NH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",25
+"NH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"NH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",4
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",67
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",3
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"NJ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"NJ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",68
+"NJ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",5
+"NJ      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",2
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",9
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",62
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",4
+"NJ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"NJ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",53
+"NJ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"NJ      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",21
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",12
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",55
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",2
+"NJ      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",6
+"NJ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"NJ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",60
+"NJ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",1
+"NJ      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",14
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",17
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",23
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"NM      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"NM      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",13
+"NM      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",23
+"NM      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",31
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",10
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",2
+"NM      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",1
+"NM      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",34
+"NM      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",8
+"NM      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",39
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"NM      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"NM      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",2
+"NM      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",39
+"NM      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",2
+"NM      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",15
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",15
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"NV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",16
+"NV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",14
+"NV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",23
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",9
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"NV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",26
+"NV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"NV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",25
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",5
+"NV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",3
+"NV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"NV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",29
+"NV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"NV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",12
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",155
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",19
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",4
+"NY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"NY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",146
+"NY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",32
+"NY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",12
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",21
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",155
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",8
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",9
+"NY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"NY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",153
+"NY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"NY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",30
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",18
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",146
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",7
+"NY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",22
+"NY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"NY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",151
+"NY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",6
+"NY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",36
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",6
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",125
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",26
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"OH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"OH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",110
+"OH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",43
+"OH      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",3
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",20
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",133
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",6
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",3
+"OH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",8
+"OH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",140
+"OH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"OH      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",8
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",13
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",138
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"OH      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",7
+"OH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",2
+"OH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",145
+"OH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"OH      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",11
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",37
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",69
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"OK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"OK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",33
+"OK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",69
+"OK      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",81
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",34
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",2
+"OK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",3
+"OK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",79
+"OK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",30
+"OK      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",6
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",102
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",13
+"OK      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",6
+"OK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"OK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",102
+"OK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",12
+"OK      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",6
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",38
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",17
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"OR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",2
+"OR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",27
+"OR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",27
+"OR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",45
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",5
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",7
+"OR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"OR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",51
+"OR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",4
+"OR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",52
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"OR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",3
+"OR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"OR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",55
+"OR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",3
+"OR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",6
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",140
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",21
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"PA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",3
+"PA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",128
+"PA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",32
+"PA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",5
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",13
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",142
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",11
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",5
+"PA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",11
+"PA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",136
+"PA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",12
+"PA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",13
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",19
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",130
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",8
+"PA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",13
+"PA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",5
+"PA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",148
+"PA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",10
+"PA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",9
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",31
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",13
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",4
+"PR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"PR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",33
+"PR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",14
+"PR      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",40
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",9
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"PR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",40
+"PR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"PR      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",2
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",25
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",10
+"PR      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",16
+"PR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"PR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",40
+"PR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",11
+"PR      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",10
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",0
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"RI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"RI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",10
+"RI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",0
+"RI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",9
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"RI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",10
+"RI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"RI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",10
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",1
+"RI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"RI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"RI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",8
+"RI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",1
+"RI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",45
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",13
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"SC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"SC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",35
+"SC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",22
+"SC      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",51
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",1
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",5
+"SC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",5
+"SC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",50
+"SC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"SC      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",2
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",2
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",48
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"SC      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",8
+"SC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"SC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",56
+"SC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"SC      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",10
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",40
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"SD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",2
+"SD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",7
+"SD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",38
+"SD      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",29
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",26
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"SD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",29
+"SD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",24
+"SD      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",2
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",45
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",9
+"SD      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"SD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"SD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",48
+"SD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",7
+"SD      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",75
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",38
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",3
+"TN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",64
+"TN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",51
+"TN      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",1
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",109
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",4
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",5
+"TN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",2
+"TN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",109
+"TN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",2
+"TN      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",5
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",101
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"TN      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",13
+"TN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"TN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",109
+"TN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",3
+"TN      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",6
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",5
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",207
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",127
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",2
+"TX      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",2
+"TX      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",187
+"TX      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",144
+"TX      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",14
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",282
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",54
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",14
+"TX      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",15
+"TX      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",295
+"TX      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",51
+"TX      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",11
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",22
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",291
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",39
+"TX      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",20
+"TX      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",8
+"TX      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",322
+"TX      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",45
+"TX      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",4
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",15
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",19
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"UT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"UT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",15
+"UT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",19
+"UT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",26
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",13
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"UT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",7
+"UT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",21
+"UT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",12
+"UT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",34
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",4
+"UT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"UT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",6
+"UT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",29
+"UT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",4
+"UT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",3
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",71
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",4
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",1
+"VA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"VA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",69
+"VA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",9
+"VA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",2
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",72
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",2
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",5
+"VA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",6
+"VA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",70
+"VA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",4
+"VA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",3
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",3
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",68
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",5
+"VA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",8
+"VA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",2
+"VA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",76
+"VA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",5
+"VA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",2
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",1
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",1
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"VI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"VI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",1
+"VI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",1
+"VI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",2
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",2
+"VI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",0
+"VI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",1
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"VI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",1
+"VI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"VI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",2
+"VI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"VI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",12
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",2
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",10
+"VT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",3
+"VT      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",10
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",1
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",3
+"VT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",13
+"VT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",1
+"VT      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",11
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",0
+"VT      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",3
+"VT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"VT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",14
+"VT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",0
+"VT      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",1
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",42
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",38
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",4
+"WA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",2
+"WA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",42
+"WA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",35
+"WA      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",61
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",18
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",8
+"WA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",7
+"WA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",64
+"WA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",15
+"WA      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",5
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",65
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",10
+"WA      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",6
+"WA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",5
+"WA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",71
+"WA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",9
+"WA      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",4
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",71
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",44
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"WI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"WI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",59
+"WI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",57
+"WI      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",114
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",4
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",3
+"WI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",4
+"WI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",113
+"WI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",4
+"WI      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",3
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",112
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",3
+"WI      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",3
+"WI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"WI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",117
+"WI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",2
+"WI      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",1
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",37
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",15
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"WV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",1
+"WV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",26
+"WV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",24
+"WV      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",1
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",47
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",4
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",42
+"WV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",2
+"WV      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",8
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",1
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",46
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",1
+"WV      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",5
+"WV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",0
+"WV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",45
+"WV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",1
+"WV      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",7
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",5
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",21
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",2
+"WY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",21
+"WY      ","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",15
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",10
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",1
+"WY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",19
+"WY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",7
+"WY      ","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",0
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",0
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",24
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",2
+"WY      ","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",0
+"WY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",1
+"WY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",23
+"WY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",2
+"WY      ","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",0
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Better than U.S. National Rate",131
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","No different than U.S. National Rate",2814
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Number of Cases Too Small*",1610
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates for Heart Attack","Worse than U.S. National Rate",54
+"National","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Better than U.S. National Rate",36
+"National","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","No different than U.S. National Rate",2488
+"National","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Number of Cases Too Small*",1944
+"National","Heart Attack","Hospital 30-Day Readmission Rates for Heart Attack","Worse than U.S. National Rate",52
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Better than U.S. National Rate",213
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","No different than U.S. National Rate",3812
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Number of Cases Too Small*",585
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates for Heart Failure","Worse than U.S. National Rate",163
+"National","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Better than U.S. National Rate",180
+"National","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","No different than U.S. National Rate",3854
+"National","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Number of Cases Too Small*",520
+"National","Heart Failure","Hospital 30-Day Readmission Rates for Heart Failure","Worse than U.S. National Rate",233
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Better than U.S. National Rate",253
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","No different than U.S. National Rate",3934
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Number of Cases Too Small*",343
+"National","Pneumonia","Hospital 30-Day Death (Mortality) Rates for Pneumonia","Worse than U.S. National Rate",284
+"National","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Better than U.S. National Rate",88
+"National","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","No different than U.S. National Rate",4199
+"National","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Number of Cases Too Small*",349
+"National","Pneumonia","Hospital 30-Day Readmission Rates for Pneumonia","Worse than U.S. National Rate",198

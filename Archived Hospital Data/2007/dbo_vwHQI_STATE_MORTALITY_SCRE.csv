@@ -1,0 +1,337 @@
+"State","Condition","Measure Name","Category","Number of Hospitals"
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",13
+"AK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",20
+"AK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",93
+"AL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",99
+"AL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",81
+"AR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",1
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",82
+"AR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",62
+"AZ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",2
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",71
+"AZ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",316
+"CA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",323
+"CA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",6
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",61
+"CO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",68
+"CO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",2
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",29
+"CT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",32
+"CT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",7
+"DC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",7
+"DC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",5
+"DE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",4
+"DE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",182
+"FL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",4
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",180
+"FL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",134
+"GA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",141
+"GA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",1
+"GU      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",1
+"GU      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",15
+"HI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",18
+"HI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",112
+"IA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",125
+"IA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",33
+"ID      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",37
+"ID      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",184
+"IL      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",184
+"IL      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",117
+"IN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",3
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",119
+"IN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",114
+"KS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",132
+"KS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",100
+"KY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",103
+"KY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",108
+"LA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",117
+"LA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",63
+"MA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",3
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",62
+"MA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",44
+"MD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",43
+"MD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",37
+"ME      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",39
+"ME      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",132
+"MI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",6
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",131
+"MI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",131
+"MN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",137
+"MN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",117
+"MO      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",123
+"MO      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",1
+"MP      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",1
+"MP      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",80
+"MS      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",98
+"MS      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",41
+"MT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",60
+"MT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",108
+"NC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",114
+"NC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",33
+"ND      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",43
+"ND      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",74
+"NE      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",87
+"NE      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",26
+"NH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",26
+"NH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",75
+"NJ      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",2
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",73
+"NJ      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",38
+"NM      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",42
+"NM      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",28
+"NV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",31
+"NV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",2
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",185
+"NY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",1
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",4
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",187
+"NY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",4
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",2
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",155
+"OH      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",1
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",4
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",159
+"OH      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",100
+"OK      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",115
+"OK      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",57
+"OR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",56
+"OR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",2
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",170
+"PA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",170
+"PA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",47
+"PR      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",49
+"PR      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",10
+"RI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",11
+"RI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",57
+"SC      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",58
+"SC      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",44
+"SD      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",54
+"SD      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",116
+"TN      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",116
+"TN      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",3
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",320
+"TX      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",1
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",1
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",357
+"TX      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",3
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",31
+"UT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",39
+"UT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",79
+"VA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",1
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",83
+"VA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",2
+"VI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",2
+"VI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",15
+"VT      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",16
+"VT      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",75
+"WA      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",85
+"WA      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",1
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",118
+"WI      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",124
+"WI      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",1
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",53
+"WV      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",53
+"WV      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",0
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",23
+"WY      ","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",0
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",26
+"WY      ","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",0
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Better than U.S. National Rate",17
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","No different than U.S. National Rate",4453
+"National","Heart Attack","Hospital 30-Day Death (Mortality) Rates from Heart Attack","Worse than U.S. National Rate",7
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Better than U.S. National Rate",38
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","No different than U.S. National Rate",4734
+"National","Heart Failure","Hospital 30-Day Death (Mortality) Rates from Heart Failure","Worse than U.S. National Rate",35
