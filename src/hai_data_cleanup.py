@@ -4,9 +4,6 @@ import os
 
 import matplotlib.pyplot as plt
 import pandas as pd
-from sklearn import linear_model
-from sklearn.cross_validation import train_test_split
-from sklearn.metrics import roc_curve, auc
 
 # Local file, intro-ds-hai/src/ directly must be in the path.
 import data_utils
@@ -52,17 +49,6 @@ def filterByMeasureID(data, measure_id):
     # Drop the measure id column, since it's the same for all rows now.
     data = data.drop('Measure ID', 1)
     return data
-
-def factorizeFeatures(train_data):
-    '''Makes all string columns into ints, using category numbers if the column isn't convertable into an int directly.'''
-    X = pd.DataFrame()
-    for column in list(train_data.columns):
-        try:
-            X[column] = train_data[column].astype(int)
-        except ValueError:
-            print 'cant interize column, assuming categorical', column
-            X[column] = pd.Categorical.from_array(train_data[column]).codes
-    return X
 
 def removeRowsWithMissingTarget(data, target_column):
     MISSING_VALUE = 'Not Available'
