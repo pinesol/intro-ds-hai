@@ -1,17 +1,16 @@
+'''Functions to manipulate the "Healthcare Associated Infections - Hospital.csv" file, and those like it.'''
+
+import os
 
 import matplotlib.pyplot as plt
-import os
 import pandas as pd
-
 from sklearn import linear_model
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import roc_curve, auc
 
+# Local file, intro-ds-hai/src/ directly must be in the path.
+import data_utils
 
-def parseFile(filename, useful_columns):
-    data = pd.read_table(filename, sep=',')
-    data = data[useful_columns]
-    return data
 
 def convertOldHAIDataframe(old_df, year_str):
     '''Replaces the 'Measure' column with the 'Measure ID' column. year_str can be either '2012' or '2013' for now.'''
@@ -38,7 +37,7 @@ def parseHAIFile(filename, year_str):
     COLUMNS_2012 = ['Provider ID', 'City', 'State', 'ZIP Code', 'County Name', 'Measure', 'Score']
     useful_columns_map = {'2014': COLUMNS_2014, '2013': COLUMNS_2013, '2012': COLUMNS_2012}
 
-    data = parseFile(filename, useful_columns_map[year_str])
+    data = data_utils.parseFile(filename, useful_columns_map[year_str])
     if year_str == '2012' or year_str == '2013':
         data = convertOldHAIDataframe(data, year_str)
     assert 'Measure ID' in data.columns

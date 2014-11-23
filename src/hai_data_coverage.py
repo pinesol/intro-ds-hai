@@ -1,13 +1,17 @@
+'''Misc. functions relating to the Healthcare Associated Infections - Hospital.csv file.'''
 
 import matplotlib
 
-from hai_data_cleanup import *  # NOTE: this is hai_data_cleanup.py from this directory
+# Local files, intro-ds-hai/src/ directly must be in the path.
+import data_utils
+from hai_data_cleanup import *
+
 
 def analyzeMissingValues():
     HAI_FILE = '/Users/pinesol/intro-ds-hai/data/Healthcare Associated Infections - Hospital.csv'
     useful_columns = ['Provider ID', 'City', 'State', 'ZIP Code', 'County Name', 'Measure ID', 'Score']
 
-    data = parseFile(HAI_FILE, useful_columns)
+    data = data_utils.parseFile(HAI_FILE, useful_columns)
 
     measure_ids = ['HAI_1_SIR', 'HAI_2_SIR', 'HAI_3_SIR', 'HAI_4_SIR', 'HAI_5_SIR', 'HAI_6_SIR']
     data_availability_by_hai = []
@@ -36,7 +40,7 @@ def trainLogisticRegression():
     useful_columns = ['Provider ID', 'City', 'State', 'ZIP Code', 'County Name', 'Measure ID', 'Score']
     target_column = 'Score'
 
-    data = parseFile(HAI_FILE, useful_columns)
+    data = data_utils.parseFile(HAI_FILE, useful_columns)
     data = filterByMeasureID(data, 'HAI_1_SIR')
     data = removeRowsWithMissingTarget(data, target_column)
     
