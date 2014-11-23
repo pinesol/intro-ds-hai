@@ -66,6 +66,9 @@ def parseHAIFile(filename, year_str):
     assert 'Measure' not in data.columns
     data = data[data['Measure ID'] == 'HAI_1_SIR']
     data = convertToNumeric(data, 'Score', ['Not Available', '-'])
+    # Make Provider ID an integer so we can use it as a merge key. 
+    # Other tables have padding zeros, so converting to int standardizes them.
+    data['Provider ID'] = data['Provider ID'].astype(int)
     return data
 
 def parseHAIbyBinLabel(filename, year_str):
@@ -88,6 +91,9 @@ def parseHAIbyBinLabel(filename, year_str):
     assert 'Score' not in data.columns
     data = data[data['Measure ID'] == 'HAI_1_SIR']
     categoricalToIndicator(data, 'Compared to National')
+    # Make Provider ID an integer so we can use it as a merge key. 
+    # Other tables have padding zeros, so converting to int standardizes them.
+    data['Provider ID'] = data['Provider ID'].astype(int)
     return data
 
 def filterByMeasureID(data, measure_id):
