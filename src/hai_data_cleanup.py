@@ -42,6 +42,9 @@ def parseHAIFile(filename, year_str):
         data = convertOldHAIDataframe(data, year_str)
     assert 'Measure ID' in data.columns
     assert 'Measure' not in data.columns
+    # Make Provider ID an integer so we can use it as a merge key. 
+    # Other tables have padding zeros, so converting to int standardizes them.
+    data['Provider ID'] = data['Provider ID'].astype(int)
     return data
 
 def filterByMeasureID(data, measure_id):
