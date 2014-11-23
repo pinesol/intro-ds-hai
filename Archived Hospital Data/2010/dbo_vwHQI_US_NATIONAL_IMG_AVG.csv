@@ -1,0 +1,5 @@
+"Condition","Measure Code","Measure Name","Score"
+"Use of Medical Imaging","OP_8","Outpatients with low back pain who had an MRI without trying recommended treatments first, such as physical therapy. (If a number is high, it may mean the facility is doing too many unnecessary MRIs for low back pain.)","32.7"
+"Use of Medical Imaging","OP_9","Outpatients who had a follow-up mammogram or ultrasound within 45 days after a screening mammogram. (A number that is much lower than 8% may mean there’s not enough follow-up. A number much higher than 14% may mean there’s too much unnecessary follow-up.)","8.4"
+"Use of Medical Imaging","OP_11","Outpatient CT scans of the chest that were “combination” (double) scans. (The range for this measure is 0 to 1. A number very close to 1 may mean that too many patients are being given a double scan when a single scan is all they need.)","0.054"
+"Use of Medical Imaging","OP_10","Outpatient CT scans of the abdomen that were “combination” (double) scans. (The range for this measure is 0 to 1. A number very close to 1 may mean that too many patients are being given a double scan when a single scan is all they need.)","0.191"
