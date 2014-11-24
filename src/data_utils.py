@@ -8,6 +8,17 @@ def parseFile(filename, useful_columns):
     data = data[useful_columns]
     return data
 
+def factorizeFeatures(train_data):
+    '''Makes all string columns into ints, using category numbers if the column isn't convertable into an int directly.'''
+    X = pd.DataFrame()
+    for column in list(train_data.columns):
+        try:
+            X[column] = train_data[column].astype(int)
+        except ValueError:
+            print 'cant int-ify column, assuming categorical', column
+            X[column] = pd.Categorical.from_array(train_data[column]).codes
+    return X
+
 def parseGeneralInfoCSV(filepath, year_str):
     '''Imports "Hospital_Data.csv" or "Hospital General Information.csv" as a dataframe.
     
@@ -22,7 +33,7 @@ def parseGeneralInfoCSV(filepath, year_str):
     COLUMNS_OLD = ['Provider Number', 'Hospital Type', 'Hospital Ownership', 'Emergency Services']
     COLUMNS_NEW = ['Provider ID', 'Hospital Type', 'Hospital Ownership', 'Emergency Services']
     useful_columns = COLUMNS_NEW if year_str == '2014' else COLUMNS_OLD
-    data = data_utils.parseFile(filepath, useful_columns)
+    data = parseFile(filepath, useful_columns)
     # Change 'Provider Number' to 'Provider ID' to match the 2014 version.
     if year_str != '2014':
         data = data.rename(columns={'Provider Number': 'Provider ID'})
