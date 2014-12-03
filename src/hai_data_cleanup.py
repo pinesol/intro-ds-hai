@@ -54,14 +54,12 @@ def _convertToNumeric(df, col_label, missing_marker):
 # TODO DEPRECATED! doesn't set provider ID as the index.
 def parseHAIFile(filename, year_str):
     '''year_str can be either '2012', '2013', or '2014' for now.'''
-    COLUMNS_2014 = ['Provider ID', 'City', 'State', 'ZIP Code', 'County Name', 'Measure ID', 'Score']
-    COLUMNS_2013 = ['Provider ID', 'City', 'State', 'ZIP Code', 'County Name', 'Measure', 'Score']
-    COLUMNS_2012 = ['Provider ID', 'City', 'State', 'ZIP Code', 'County Name', 'Measure', 'Score']
+    COLUMNS_2014 = ['City', 'State', 'Measure ID', 'Score']
+    COLUMNS_2013 = ['City', 'State', 'Measure', 'Score']
+    COLUMNS_2012 = ['City', 'State', 'Measure', 'Score']
     useful_columns_map = {'2014': COLUMNS_2014, '2013': COLUMNS_2013, '2012': COLUMNS_2012}
     
-    data = data_utils.parseFile(filename, useful_columns_map[year_str])
-    #data = data.set_index(data['Provider ID'])
-    #data = data.drop('Provider ID', 1)
+    data = data_utils.parseFileWithIndex(filename, useful_columns_map[year_str])
     if year_str == '2012' or year_str == '2013':
         data = _convertOldHAIDataframe(data, year_str)
     assert 'Measure ID' in data.columns
@@ -69,16 +67,20 @@ def parseHAIFile(filename, year_str):
     # Throws out all rows that don't have the measure ID 'HAI_1_SIR'.
     data = data[data['Measure ID'] == 'HAI_1_SIR']
     data = _convertToNumeric(data, 'Score', ['Not Available', '-'])
-    # Make Provider ID an integer so we can use it as a merge key. 
-    # Other tables have padding zeros, so converting to int standardizes them.
-    data['Provider ID'] = data['Provider ID'].astype(int)
+    data = data.drop('Measure ID', 1)
+    # TODO Do we want to remove rows with missing target?
     return data
 
 def parseHAIbyBinLabel(filename, year_str):
     '''year_str can be either '2012', '2013', or '2014' for now.
     Analog of parseHAIFile, but instead of using Score as target, gives numerical indicator for
     Compared to National. -1 means worse than average, 0 no different, 1 better than average.
-    Actual SIR value, confidence intervals, etc. will not be included in returned df'''
+    Actual SIR value, confidence intervals, etc. will not be included in returned df
+    
+   parseHAIbyBinLabel keeps the label, and drops the actual score
+   parseHAIFile keeps only the score without the label
+   If we want to keep both, we can call both functions and then merge the resulting datasets, 
+   (see parseHAIboth) '''
 
     COLUMNS_2014 = ['City', 'State', 'Measure ID', 'Compared to National']
     COLUMNS_2013 = ['City', 'State', 'Measure', 'Score']
@@ -107,7 +109,14 @@ def parseHAIbyBinLabel(filename, year_str):
     	data = _categoricalToIndicator(data, 'Compared to National')
     # Now that we've removed all the rows unrelated to HAI_1_SIR, drop the measure ID.
     data = data.drop('Measure ID', 1)
+    # TODO Do we want to remove rows with missing target?
     return data
+
+def parseHAIboth(filename, year_str):
+	data1 = parseHAIFile(filename, year_str)
+	data2 = parseHAIbyBinLabel(filename, year_str)
+	data2['Score'] = data1['Score']
+	return data2
     
 def _binByCI(data, lowerLabel, upperLabel, valueLabel):
 	"""For a dataframe with no bin labels, takes the limits of confidence interval
