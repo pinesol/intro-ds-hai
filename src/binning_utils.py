@@ -31,7 +31,7 @@ def binByScore2(df, col, lower = -2, upper = 2):
     df2[col] = z_scores.map(binning)
     return df2
     
-def binByScore3(df, col, quantile = .20):
+def binByScore3(df, col, quantile = .10):
     df2 = df.copy()
     df2 = df2.sort(col, ascending=False)
     ncases = sum(df2[col].notnull())
