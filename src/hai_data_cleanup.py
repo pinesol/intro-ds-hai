@@ -1,7 +1,6 @@
 '''Functions to manipulate the "Healthcare Associated Infections - Hospital.csv" file, and those like it.'''
 
 import os
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -16,6 +15,7 @@ def _convertOldHAIDataframe(old_df, year_str):
     '''Replaces the 'Measure' column with the 'Measure ID' column. year_str can be either '2012' or '2013' for now.'''
     # TODO both maps have other HAI_1 measures, like upper and lower bounds
     # TODO 2013_MEASURE_MAP can be extended to have entries for HAI 1 through HAI 4.
+    # Rename the scores and compare rows to correspond to 2014 format
     MEASURE_MAP_2013 = {'Central-Line-Associated Blood Stream Infections (CLABSI)': 'HAI_1_SIR',
                         'CLABSI Compared to National': 'HAI_1_compare'}
     MEASURE_MAP_2012 = {'Central Line Associated Blood Stream Infections (CLABSI)': 'HAI_1_SIR',
@@ -88,9 +88,10 @@ def parseHAIbyBinLabel(filename, year_str):
     data = data_utils.parseFileWithIndex(filename, useful_columns_map[year_str])
     if year_str == '2013':
         data = _convertOldHAIDataframe(data, year_str)
-        data['Compared to National'] = data['Score']
+        data['Compared to National'] = data['Score'] #rename the Score column
         data = data.drop('Score', 1)
     elif year_str == '2012':
+        # 2012 doesn't come with its own labels. Instead, we use the CIs to construct the labels.
     	data = _binByCI(data, 'CLABSI Lower Confidence Limit', 'CLABSI Upper Confidence Limit', 'Score')
     	data = _convertOldHAIDataframe(data, year_str)
     	data = data.drop('Score', 1)
