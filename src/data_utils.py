@@ -2,21 +2,65 @@
 
 import pandas as pd
 
+# DEPRECATED
 def parseFile(filename, useful_columns):
     '''Read the given csv file as a dataframe, keeping only the columns in useful_columns.'''
     data = pd.read_table(filename, sep=',')
     data = data[useful_columns]
     return data
 
-def factorizeFeatures(train_data):
-    '''Makes all string columns into ints, using category numbers if the column isn't convertable into an int directly.'''
+def parseFileWithIndex(filename, useful_columns):
+    '''Read the given csv file as a dataframe, keeping only the columns in useful_columns.
+    
+    The first column, which are assumed to be provider ID values, will be used as the dataframe
+    index. The values of this column must be converted from strings to integers, because the indexes
+    should be the same across different dataframes, and some provider ID values have leading zeroes,
+    and some don't. Making the index have integer values allows all tables keyed with provider ID to 
+    be easily joined together.
+    As a result of this, all non-integer provider IDs are thrown out.
+
+    Args:
+      filename: A string filename that points to a CSV file whose header is the first line.
+      useful_columns: A list of strings that indicate the columns from the file that should be 
+        retained.
+
+    Returns:
+      A dataframe that has an integer-valued 'Provider ID' as its index, and only the columns
+      listed in useful_columns.
+    '''
+    # Read in the data, making the first column the index.
+    data = pd.read_csv(filename, sep = ',', index_col = 0)
+    # Throw out all rows that have a non-integer for a provider ID. This gets rid of the rows with 
+    # non-integer provider IDs, e.g. '01014F'.
+    data = data[data.index.map(lambda x: (isinstance(x, int) or (isinstance(x, str) and x.isdigit())))]
+    # Convert the index to integers now that the non-integer index values have been removed.
+    data.index = data.index.astype(int)
+    # Make sure the index is called 'Provider ID'.
+    data.index.names = ['Provider ID']
+    # Filter out non-useful columns
+    data = data[useful_columns]
+    return data
+
+# TODO this auto converts floats to ints, which is probably wrong.
+def factorizeFeatures(features_data):
+    '''Makes all string columns into ints, using category numbers if the column int-izable.
+    
+    This assumes all 'missing data' has been cleared from the dataframe.
+
+    Args:
+      features_data: A dataframe that contains only the features that will be used in a sklearn 
+        classifier.
+
+    Returns:
+      A dataframe that has had it numeric values changed to integers.
+    '''
     X = pd.DataFrame()
-    for column in list(train_data.columns):
+    for column in list(data.columns):
         try:
-            X[column] = train_data[column].astype(int)
+            X[column] = data[column].astype(int)
         except ValueError:
             print 'cant int-ify column, assuming categorical', column
-            X[column] = pd.Categorical.from_array(train_data[column]).codes
+            X[column] = pd.Categorical.from_array(data[column]).codes
     return X
 
 def parseGeneralInfoCSV(filepath, year_str):
