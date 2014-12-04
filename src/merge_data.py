@@ -6,6 +6,12 @@ import pandas as pd
 
 import hai_data_cleanup
 
+def mergeAllTheThings():
+    data = mergeHAITables()
+    # TODO(alex, jackie, maya): glom on moar feature columns!
+    return data
+
+
 # TODO: This function hasn't yet been tested outside the 'Merge Data' notebook. 
 # I'm not sure it will be able to find the data files at the moment.
 def mergeHAITables():
@@ -68,3 +74,4 @@ def mergeHAITables():
     assert sorted(set(hai_2014_score.index)) == sorted(hai_2014_score.index)
     
     return final_table
+

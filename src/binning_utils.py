@@ -1,3 +1,10 @@
+
+# NOTE from Alex: Jackie, here's how I'd the interface for these functions to work: 
+# Each one should take dataframe as an argument (and possibly also some optional vars, like you've already done on binByScore2 and binByScore3).
+# Each one should just assume that 'Compared To National' and 'Score' are in the table, so the 'col' argument isn't needed.
+# The returned data frame shouldn't have the 'Compared To National' and 'Score' columns anymore, it should only have the binned column.
+# Could you name the column 'Final Score' (or something else, consistancy is the important thing)?
+# 
 def binByScore1(df, col):
     #cols = df.columns[pd.Series(df.columns).str.contains('Score')]
     df2 = df.copy()
