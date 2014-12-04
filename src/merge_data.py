@@ -6,14 +6,21 @@ import pandas as pd
 
 import hai_data_cleanup
 
+# TODO: THIS IS ALL UNTESTED!
+# This function hasn't yet been tested outside the 'Merge Data' notebook. 
+# I'm not sure it will be able to find the data files at the moment.
+
 def mergeAllTheThings():
+    '''Function that creates the final table that will be sent for classification.'''
     data = mergeHAITables()
+    data = mergeSCIPDataframes(data)
     # TODO(alex, jackie, maya): glom on moar feature columns!
+    # e.g.
+    # data = JackiesVolumeData(data) # Don't forget to fill in nans! Adding asserts is good too!
+    # data = MayasSpendingData(data) # Don't forget to fill in nans! Adding asserts is good too!
     return data
 
-
-# TODO: This function hasn't yet been tested outside the 'Merge Data' notebook. 
-# I'm not sure it will be able to find the data files at the moment.
+# TODO(alex) make this be able to use the functions in binning_utils.py. You'll have to use parseHaiByBoth.
 def mergeHAITables():
     '''Merges all three HAI tables into one table that's ready to be used by a classifier
 
@@ -74,4 +81,37 @@ def mergeHAITables():
     assert sorted(set(hai_2014_score.index)) == sorted(hai_2014_score.index)
     
     return final_table
+
+
+# TODO fill in NaNs!!
+def mergeSCIPDataframes(data):
+    '''Merges a list of scrip dataframes into one that has columns from each.
+    Assumes missing data has been removed, that all column names are unique, 
+    and that all tables have the same index.
+
+    The columns of the returned table are:
+    ['SCIP_INF_1_1', 'SCIP_INF_2_1', 'SCIP_INF_3_1', 'SCIP_INF_10_1', 'SCIP_INF_1_2', 'SCIP_INF_2_2', 
+    'SCIP_INF_3_2', 'SCIP_INF_10_2']
+    '''
+    scip_dfs = [data_utils.ImportSCIPDataV2('2012'), data_utils.ImportSCIPDataV2('2013')]
+
+    new_dfs = []
+    for i, df in enumerate(scip_dfs):
+        new_columns_map = {column_name: column_name+'_'+str(i+1)
+                           for column_name in df.columns.values}
+        new_df = df.rename(columns=new_columns_map)
+        new_dfs.append(new_df)
+    merged_scip_dfs = pd.concat(new_dfs, axis=1)
+    merged_final_data = data.join(merged_scip_dfs, how='left')
+    # TODO fill nans
+
+    # TODO add asserts for column names
+    # TODO add assert for nans
+    return merged_final_data
+
+
+#TODO(alex): call parseGenerealInfoCSV for all three years and merge them together
+def mergeGeneralInfoTables():
+    #parseGenerealInfoCSV(filepath, year_str)
+    pass 
 
