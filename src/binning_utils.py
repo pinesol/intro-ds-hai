@@ -1,10 +1,9 @@
+# Target column is df['Bin'] for all binning functions
+# 1: Worse than average
+# 0: Average or above average
+# Functions are equipped to handle nans, so it's fine to throw out nans after calling binning
+# Input to function should be a single year dataframe output by hai_data_cleanup.parseHAIboth
 
-# NOTE from Alex: Jackie, here's how I'd like the interface for these functions to work: 
-# Each one should take dataframe as an argument (and possibly also some optional vars, like you've already done on binByScore2 and binByScore3).
-# Each one should just assume that 'Compared To National' and 'Score' are in the table, so the 'col' argument isn't needed.
-# The returned data frame shouldn't have the 'Compared To National' and 'Score' columns anymore, it should only have the binned column.
-# Could you name the column 'Final Score' (or something else, consistency is the important thing)?
-# 
 def binByScore1(df):
 '''All SIR scores greater than 1 labeled as positive (Bin=1), otherwise 0.
 	Returns dataframe with target in df['Bin'].'''
