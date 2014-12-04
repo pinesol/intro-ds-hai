@@ -1,0 +1,8 @@
+When position is 1:
+mean average daily return is: 0.021  and the standard deviation: 0.999779475684
+When position is 10:
+mean average daily return is: 0.02396  and the standard deviation: 0.315318756816
+When position is 100:
+mean average daily return is: 0.01973  and the standard deviation: 0.0999406178688
+When position is 1000:
+mean average daily return is: 0.0198648  and the standard deviation: 0.0313032669375
