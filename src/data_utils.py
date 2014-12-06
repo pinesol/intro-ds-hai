@@ -89,14 +89,13 @@ def parseGeneralInfoCSV(filepath, year_str):
     data['Provider ID'] = data['Provider ID'].astype(int)
     return data
 
-
 def ImportSCIPData(year_str):
     '''The returned columns are [SCIP_INF_1, SCIP_INF_2, SCIP_INF_3, SCIP_INF_10]'''
     useful_columns = ["Surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection",
                       "Surgery patients who were given the right kind of antibiotic to help prevent infection",
                       "Surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)",
                       "Patients having surgery who were actively warmed in the operating room or whose body temperature was near normal"]
-    df = data_utils.parseFileWithIndex('data/'+ year_str + '/Process of Care Measures - SCIP.csv', useful_columns)   
+    df = parseFileWithIndex('data/'+ year_str + '/Process of Care Measures - SCIP.csv', useful_columns)   
     # Rename columns
     new_column_name_map = {useful_columns[0]: 'SCIP_INF_1',
                            useful_columns[1]: 'SCIP_INF_2',
@@ -111,7 +110,7 @@ def ImportSCIPData(year_str):
     for column_name in df.columns.values:
         if sum((df[column_name] == bad_value)) > 0:
             column_mean = df[column_name][(df[column_name] != bad_value)].astype(int).mean().round()
-            # This line will add dumy values. Commenting it out for now.
+            # TODO(alex): This line will add dumy values. Commenting it out for now.
             #df[column_name + "_dummy"] = (df[column_name] != bad_value) * 1
             df[column_name] = df[column_name].replace(to_replace=bad_value, value=column_mean).astype(int)
     return df
