@@ -11,7 +11,7 @@ def mergeAllTheThings():
     '''Function that creates the final table that will be sent for classification.'''
     data = mergeHAITables(binning_utils.binByLabel) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
-    data = processSpendingData(base_DF = data) #process and glom on spending DF
+    data = processSpendingData(data) #process and glom on spending DF
     
     # TODO(alex, jackie, maya): glom on moar feature columns!
     # e.g.
@@ -37,7 +37,11 @@ def mergeHAITables(hai_binning_func):
     The resulting data frame will be indexed by provider ID, have the location data for the
     hospital, and the HAI scores from all three years.
 
-    The columns of the returned table are: ['Bin 2012', 'Bin 2013', 'Bin 2014', 'City', 'State']
+    The columns of the returned table are:
+    ['AK', 'AL', 'AR', 'AZ', 'Bin 2012', 'Bin 2013', 'Bin 2014', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL',
+    'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 
+    'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 
+    'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
     '''
    # Extract out the 2014 score column, keeping the index. This will be the target column.
     hai_2014 = hai_data_cleanup.parseHAIboth('data/2014/Healthcare Associated Infections - Hospital.csv', '2014')
@@ -47,10 +51,13 @@ def mergeHAITables(hai_binning_func):
     # Renaming target column
     hai_2014['Bin 2014'] = hai_2014['Bin']
     hai_2014 = hai_2014.drop('Bin', 1)
-    # Making the two string columns into ints so they can be classified.
-    # TODO(alex): this should probably by done in hai_data_cleaup...oh well.
-    hai_2014['State'] = pd.Categorical.from_array(hai_2014['State']).codes
-    hai_2014['City'] = pd.Categorical.from_array(hai_2014['City']).codes
+
+    # Dropping the City column because there's just too many of them to make each one have its own column.
+    hai_2014 = hai_2014.drop('City', 1)
+    # Making the state column into 50 different columns
+    hai_2014 = pd.concat([hai_2014, pd.get_dummies(hai_2014['State'])], axis=1)
+    # Drop the State column now that it's no longer needed.
+    hai_2014 = hai_2014.drop('State', 1)
 
     # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2012 = hai_data_cleanup.parseHAIboth('data/2012/Healthcare_Associated_Infections.csv', '2012')
@@ -88,7 +95,11 @@ def mergeHAITables(hai_binning_func):
     # There shuld be no duplicate provider IDs
     assert sorted(set(final_table.index)) == sorted(final_table.index)
     # Check that the columns are what we expect.
-    expected_columns = ['Bin 2012', 'Bin 2013', 'Bin 2014', 'City', 'State']
+    expected_columns = ['AK', 'AL', 'AR', 'AZ', 'Bin 2012', 'Bin 2013', 'Bin 2014', 'CA', 'CO', 
+                        'CT', 'DC', 'DE', 'FL', 'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 
+                        'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 
+                        'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 
+                        'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
     assert expected_columns == sorted(final_table.columns.values), sorted(final_table.columns.values)    
     return final_table
 
