@@ -1,4 +1,0 @@
-position:1 mean:0.0136,std:0.999907515723 
-position:10 mean:0.0209,std:0.316542556381 
-position:100 mean:0.020936,std:0.100671365859 
-position:1000 mean:0.0202466,std:0.0317668189852 
