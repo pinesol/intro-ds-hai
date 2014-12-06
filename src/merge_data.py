@@ -1,14 +1,9 @@
 
 import sys
-sys.path.append('src/')
-sys.path.append('data/')
 import pandas as pd
 
+import data_utils
 import hai_data_cleanup
-
-# TODO: THIS IS ALL UNTESTED!
-# This function hasn't yet been tested outside the 'Merge Data' notebook. 
-# I'm not sure it will be able to find the data files at the moment.
 
 def mergeAllTheThings():
     '''Function that creates the final table that will be sent for classification.'''
@@ -16,8 +11,8 @@ def mergeAllTheThings():
     data = mergeSCIPDataframes(data)
     # TODO(alex, jackie, maya): glom on moar feature columns!
     # e.g.
-    # data = JackiesVolumeData(data) # Don't forget to fill in nans! Adding asserts is good too!
-    # data = MayasSpendingData(data) # Don't forget to fill in nans! Adding asserts is good too!
+    # data = mergeJackiesVolumeData(data) # Make sure to add a function in this file that fills in the nans! Adding asserts is good too!
+    # data = mergeMayasSpendingData(data) # Make sure to add a function in this file that fills in the nans! Adding asserts is good too!
     return data
 
 # TODO(alex) make this be able to use the functions in binning_utils.py. You'll have to use parseHaiByBoth.
@@ -93,7 +88,7 @@ def mergeSCIPDataframes(data):
     ['SCIP_INF_1_1', 'SCIP_INF_2_1', 'SCIP_INF_3_1', 'SCIP_INF_10_1', 'SCIP_INF_1_2', 'SCIP_INF_2_2', 
     'SCIP_INF_3_2', 'SCIP_INF_10_2']
     '''
-    scip_dfs = [data_utils.ImportSCIPDataV2('2012'), data_utils.ImportSCIPDataV2('2013')]
+    scip_dfs = [data_utils.ImportSCIPData('2012'), data_utils.ImportSCIPData('2013')]
 
     new_dfs = []
     for i, df in enumerate(scip_dfs):
@@ -114,4 +109,3 @@ def mergeSCIPDataframes(data):
 def mergeGeneralInfoTables():
     #parseGenerealInfoCSV(filepath, year_str)
     pass 
-
