@@ -4,9 +4,11 @@
 # Functions are equipped to handle nans, so it's fine to throw out nans after calling binning
 # Input to function should be a single year dataframe output by hai_data_cleanup.parseHAIboth
 
+import numpy as np
+
 def binByScore1(df):
-'''All SIR scores greater than 1 labeled as positive (Bin=1), otherwise 0.
-	Returns dataframe with target in df['Bin'].'''
+    '''All SIR scores greater than 1 labeled as positive (Bin=1), otherwise 0.
+    Returns dataframe with target in df['Bin'].'''
     df2 = df.copy()
     col = 'Score'
     def binning(score):
@@ -21,9 +23,9 @@ def binByScore1(df):
     return df2
 
 def binByScore2(df, upper = 2):
-'''All SIR scores greater than k standard deviations above the mean labeled 
-	as positive (Bin=1), otherwise 0. Default = 2 SD above mean.
-	Returns dataframe with target in df['Bin'].'''
+    '''All SIR scores greater than k standard deviations above the mean labeled 
+    as positive (Bin=1), otherwise 0. Default = 2 SD above mean.
+    Returns dataframe with target in df['Bin'].'''
     df2 = df.copy()
     col = 'Score'
     def binning(z):
@@ -41,9 +43,9 @@ def binByScore2(df, upper = 2):
     return df2
     
 def binByScore3(df, quantile = .10):
-'''All SIR scores in the worst k percentile of the data labeled 
-	as positive (Bin=1), otherwise 0. Default = highest 10th percentile.
-	Returns dataframe with target in df['Bin'].'''
+    '''All SIR scores in the worst k percentile of the data labeled 
+    as positive (Bin=1), otherwise 0. Default = highest 10th percentile.
+    Returns dataframe with target in df['Bin'].'''
     df2 = df.copy()
     col = 'Score'
     if quantile > 1:
@@ -58,18 +60,18 @@ def binByScore3(df, quantile = .10):
     return df2
 
 def binByLabel(df):
-'''Uses the pre-supplied bin labels output by parseHAIbyBinLabel function.
-	Bin = 1 if Compared to National is worse than average, otherwise 0.
-	Returns dataframe with target in df['Bin'].'''
-	df2 = df.copy()
-	col = 'Compared to National'
-	def binning(score):
-            if np.isnan(score):
-                return np.nan
-            elif score == -1:
-                return 1
-            else: 
-                return 0
-	df2['Bin'] = df2[col].map(binning)
-	df2 = df2.drop(['Score', col], 1)
-	return df2
+    '''Uses the pre-supplied bin labels output by parseHAIbyBinLabel function.
+    Bin = 1 if Compared to National is worse than average, otherwise 0.
+    Returns dataframe with target in df['Bin'].'''
+    df2 = df.copy()
+    col = 'Compared to National'
+    def binning(score):
+        if np.isnan(score):
+            return np.nan
+        elif score == -1:
+            return 1
+        else: 
+            return 0
+    df2['Bin'] = df2[col].map(binning)
+    df2 = df2.drop(['Score', col], 1)
+    return df2
