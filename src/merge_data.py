@@ -11,6 +11,8 @@ def mergeAllTheThings():
     '''Function that creates the final table that will be sent for classification.'''
     data = mergeHAITables(binning_utils.binByLabel) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
+    data = processSpendingData(base_DF = data) #process and glom on spending DF
+    
     # TODO(alex, jackie, maya): glom on moar feature columns!
     # e.g.
     # data = mergeJackiesVolumeData(data)
@@ -23,13 +25,14 @@ def mergeAllTheThings():
 
     # Tests
     # Check that every data entry in the dataframe is numeric (using numpy's isreal function).
+    
     for index, row in data.iterrows():
         for column in data.columns.values:
             assert not np.isnan(data[column][index]), 'Data with Provider ID %i in column %s is NaN: %s.' % (index, column, data[column][index])
             assert np.isreal(data[column][index]), 'Data with Provider ID %i in column %s has non-numeric data: %s.' % (index, column, data[column][index])
     return data
 
-def mergeHAITables(hai_binning_func):
+def mergeHAITables(hai_binning_func):   
     '''Merges the three hospital acquired infection data frames into one that can be classified.
     The resulting data frame will be indexed by provider ID, have the location data for the
     hospital, and the HAI scores from all three years.
@@ -121,6 +124,31 @@ def mergeSCIPDataframes(data):
 def mergeGeneralInfoTables():
     #parseGenerealInfoCSV(filepath, year_str)
     pass 
+
+
+def processSpendingData(base_DF):
+    ''' Function retrieved spending data, cleans it ad merged with base_DF. missing values are populated with mean of yearly spending.'''
+    years = ['2012', '2013']
+    DFs = []
+    for y in years:
+        file_path = 'data/%s/Medicare Spending Per Patient.csv' %y
+        useful_columns = ['Spending per Hospital Patient with Medicare']
+        spending_df = data_utils.parseFileWithIndex(file_path, useful_columns)
+        spending_df = hai_data_cleanup.removeRowsWithMissingTarget(spending_df, 'Spending per Hospital Patient with Medicare')
+        spending_df['Spending per Hospital Patient with Medicare'] = spending_df['Spending per Hospital Patient with Medicare'].astype(float)
+
+        spending_df.columns = ['Spending_per_patient_%s' %y]
+        DFs.append(spending_df)
+
+
+    spending_total = DFs[0].join(DFs[1], how = 'outer') # merge spending DFs to eachother
+    print spending_total.head()
+    joined_df = base_DF.join(spending_total, how = 'left') #merge spending DF with base. keep only lines with base_df provider ID's
+
+    joined_df.Spending_per_patient_2012.replace(np.nan, joined_df.Spending_per_patient_2012.mean(), inplace=True )
+    joined_df.Spending_per_patient_2013.replace(np.nan, joined_df.Spending_per_patient_2013.mean(), inplace=True )
+    
+    return joined_df
 
 
 if __name__ == '__main__':
