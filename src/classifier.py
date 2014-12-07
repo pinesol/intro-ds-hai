@@ -4,40 +4,45 @@ import numpy as np
 import pandas as pd
 from sklearn import linear_model
 from sklearn import metrics
-from sklearn.cross_validation import train_test_split
-from sklearn.cross_validation import KFold
-from sklearn.metrics import roc_curve, auc
+from sklearn.cross_validation import train_test_split, KFold
+from sklearn.grid_search import GridSearchCV
+from sklearn.metrics import auc, roc_curve
 
 # Local files, intro-ds-hai/src/ directly must be in the path.
 import binning_utils
 import data_utils
 import merge_data
 
+
 def testLogisticRegression():
-    initial_data = merge_data.mergeAllTheThings(binning_utils.binByLabel)
+    data = merge_data.mergeAllTheThings(binning_utils.binByLabel)
     
-    Y = initial_data['Bin 2014']
-    X = initial_data.drop('Bin 2014', 1)
+    Y = data['Bin 2014']
+    X = data.drop('Bin 2014', 1)
 
     print 'The total number of hospitals is', len(Y) # 2005
     print 'The number of hospitals with a positive label is', sum(Y) # 23!
     # Base rate is 23/2005 ~= 1.1%
 
-    train_ix, test_ix = data_utils.splitTestTrainIndices(initial_data, 'Bin 2014', 
-                                                         train_size=0.8)
+    train_ix, test_ix = data_utils.splitTestTrainIndices(data, 'Bin 2014', train_size=0.8)
     X_train, X_test = X.ix[train_ix], X.ix[test_ix]
     Y_train, Y_test = Y.ix[train_ix], Y.ix[test_ix]
 
-    # TODO try this without the fancy split algo, see the difference
-    lr_classifier = BestAUCLogisiticRegression(X_train, Y_train)
-    
+    ftwo_scorer = metrics.make_scorer(metrics.fbeta_score, beta=2) 
+    lr_classifier = optimizeLogisiticRegression(X_train, Y_train, ftwo_scorer)
+
+    print("Best parameters set found on development set:")
+    print(lr_classifier.best_estimator_)
+    print("Detailed classification report:")
+    print("The model is trained on the full development set.")
+    print("The scores are computed on the full evaluation set.")
+    print(metrics.classification_report(Y_test, lr_classifier.predict(X_test)))
     # Evaluate on the test set
-    final_auc = metrics.roc_auc_score(y_true = Y_test, 
-                                      y_score=lr_classifier.decision_function(X_test)) # predict_proba?
+    final_auc = metrics.roc_auc_score(y_true=Y_test, 
+                                      y_score=lr_classifier.decision_function(X_test))
     print 'logistic regression gets an AUC of:', final_auc
-    # Woot AUC 0.73!
-    # Once volume data was added, AUC went down to 0.53!!!
-    # TODO make roc graph and choose best cutoff by examining it graphically, optimize for recall.
+    final_ftwo = ftwo_scorer(lr_classifier, X_test, Y_test)
+    print 'logistic regression gets a final f2 score of:', final_ftwo
     
 
 def BestAUCLogisiticRegression(X_train, Y_train, regularization_type='l2'):
@@ -57,7 +62,7 @@ def BestAUCLogisiticRegression(X_train, Y_train, regularization_type='l2'):
     classifier = linear_model.LogisticRegression(C=best_c, penalty=regularization_type)
     return classifier.fit(X_train, Y_train)
     
-
+# Deprecated, use optimizeLogisiticRegression below
 def meanAUCCrossValidation(X, Y, classifier, num_folds=5):
     cross_valdation_obj = KFold(n=X.shape[0], n_folds = num_folds, random_state=42)
     aucs = []
@@ -72,6 +77,24 @@ def meanAUCCrossValidation(X, Y, classifier, num_folds=5):
         aucs.append(auc)
 
     return np.mean(aucs)
+
+# Deprecated, use optimizeLogisiticRegression below
+def optimizeLogisiticRegression(X_train, Y_train, scorer, regularization_type='l2'):
+    '''Creates a logisitic regression trainied on the given data with an optimized C parameter.
+
+    Args:
+      X_train: A dataframe on which to train the features
+      Y_train: A dataframe on which to evaluate the training data
+      scorer: A string or a scoring function used to optimize the C hyperparameter. Use 'mean_auc'
+        to optimized via mean_auc, and use the following to optimize via F2 score:
+        ftwo_scorer = metrics.make_scorer(metrics.fbeta_score, beta=2) 
+    Returns:
+      A fitted logistic regression classifier.
+    '''
+    param_grid = {'C': [10**i for i in range(-3,7)] + [1e30]}
+    lr_classifier = GridSearchCV(linear_model.LogisticRegression(penalty=regularization_type), 
+                                 param_grid=param_grid, scoring=scorer)
+    return lr_classifier.fit(X_train, Y_train)
 
 
 # Plan, I update these functions to do the following:

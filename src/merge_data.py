@@ -7,9 +7,11 @@ import binning_utils
 import data_utils
 import hai_data_cleanup
 
-def mergeAllTheThings():
+def mergeAllTheThings(binning_func):
     '''Function that creates the final table that will be sent for classification.'''
-    data = mergeHAITables(binning_utils.binByLabel, binning_utils.binByLabel, binning_utils.binByLabel) # TODO: experiment with other binning functions
+    data = mergeHAITables(hai_2014_binning_func=binning_func, 
+                          hai_2013_binning_func=binning_func, 
+                          hai_2012_binning_func=binning_func)
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
     data = processVolumeData(data)
@@ -133,6 +135,19 @@ def mergeHAITables(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binnin
                         'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
     assert expected_columns == sorted(final_table.columns.values), sorted(final_table.columns.values)    
     return final_table
+
+
+
+def createAllDatasets(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binning_func):
+    # TODO return a dictionary
+    # TODO autoregressive
+    # TODO states
+    # TODO states+scip
+    # TODO states+scip+spending
+    # TODO states+scip+spending+volume
+
+
+
 
 def mergeSCIPDataframes(data):
     '''Merges a list of scrip dataframes into one that has columns from each.
