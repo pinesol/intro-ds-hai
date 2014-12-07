@@ -5,6 +5,7 @@
 # Input to function should be a single year dataframe output by hai_data_cleanup.parseHAIboth
 
 import numpy as np
+import pandas as pd
 
 def binByScore1(df):
     '''All SIR scores greater than 1 labeled as positive (Bin=1), otherwise 0.
@@ -53,9 +54,11 @@ def binByScore3(df, quantile = .10):
     df2 = df2.sort(col, ascending=False, na_position='last')
     ncases = sum(df2[col].notnull())
     nmissing = sum(df2[col].isnull())
-    df2['Bin'][:quantile*ncases] = 1
-    df2['Bin'][quantile*ncases:-nmissing] = 0
-    df2['Bin'][-nmissing:] = np.nan
+    bin_col = pd.Series([0]*len(df2.index), index=df2.index)
+    bin_col.iloc[:int(round(quantile*ncases))] = 1
+    bin_col.iloc[int(round(quantile*ncases)):-nmissing] = 0
+    bin_col.iloc[-nmissing:] = np.nan
+    df2['Bin'] = bin_col
     df2 = df2.drop([col, 'Compared to National'], 1)
     return df2
 
