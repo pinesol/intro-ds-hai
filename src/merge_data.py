@@ -12,6 +12,7 @@ def mergeAllTheThings():
     data = mergeHAITables(binning_utils.binByLabel) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
+    data = processVolumeData(data)
     
     # TODO(alex, jackie, maya): glom on moar feature columns!
     # e.g.
@@ -161,6 +162,41 @@ def processSpendingData(base_DF):
     
     return joined_df
 
-
+def processVolumeData(aggregated):
+	df_2013 = data_utils.parseFileWithIndex('data/2013/Medicare Volume Measures.csv', 
+                               ['Diagnosis Related Group', 'Number Of Cases'])
+	df_2012 = data_utils.parseFileWithIndex('data/2012/Medicare Payment and Volume Measures.csv', 
+                               ['Diagnosis Related Group', 'Number Of Cases'])
+    
+	mincases = '10'
+	missing_marker = '*'
+	test_column = 'Chest Pain 2013';
+	
+	reformatted = []
+	for df in [df_2013, df_2012]:
+		df['Number Of Cases'][df['Number Of Cases'] == missing_marker] = mincases
+		df['Number Of Cases'] = df['Number Of Cases'].str.replace(",", "")
+		df['Number Of Cases'] = df['Number Of Cases'].astype(float)
+    
+		hospitals = pd.unique(df.index)
+		cols = pd.unique(df['Diagnosis Related Group'])
+    
+		df2 = pd.DataFrame(data = 0, index = hospitals, columns = cols)
+		for col in cols:
+			x = df['Number Of Cases'][df['Diagnosis Related Group'] == col]
+			df2[col] = x
+		reformatted.append(df2)
+		assert 'Number of Cases' not in df2.columns
+		assert 'Diagnosis Related Group' not in df2.columns
+	
+	reformatted[0].columns = reformatted[0].columns.map(lambda x: str(x) + ' 2013')
+	volume = reformatted[0].join(reformatted[1], how = 'outer', rsuffix=' 2012')
+	assert test_column in volume.columns
+	volume[pd.isnull(volume)] = float(mincases) 
+	merged_final_data = aggregated.join(volume, how='left')
+	merged_final_data = merged_final_data.fillna(float(mincases))
+	return merged_final_data
+    
+    
 if __name__ == '__main__':
     print "Head of final dataframe to classify: %s" % mergeAllTheThings().head()

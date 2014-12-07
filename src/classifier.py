@@ -36,6 +36,7 @@ def testLogisticRegression():
                                       y_score=lr_classifier.decision_function(X_test)) # predict_proba?
     print 'logistic regression gets an AUC of:', final_auc
     # Woot AUC 0.73!
+    # Once volume data was added, AUC went down to 0.53!!!
     # TODO make roc graph and choose best cutoff by examining it graphically, optimize for recall.
     
 
