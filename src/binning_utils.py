@@ -20,6 +20,10 @@ def binByScore1(df):
             return 0
     df2['Bin'] = df2[col].map(binning)
     df2 = df2.drop([col, 'Compared to National'], 1)
+    assert 'Compared to National' not in df2.columns
+    assert 'Score' not in df2.columns
+    assert 'Bin' in df2.columns
+    assert df2['Bin'].dtype == 'float64'
     return df2
 
 def binByScore2(df, upper = 2):
@@ -40,6 +44,10 @@ def binByScore2(df, upper = 2):
     z_scores = df2[col].map(lambda score: (score - mean)/sd)
     df2['Bin'] = z_scores.map(binning)
     df2 = df2.drop([col, 'Compared to National'], 1)
+    assert 'Compared to National' not in df2.columns
+    assert 'Score' not in df2.columns
+    assert 'Bin' in df2.columns
+    assert df2['Bin'].dtype == 'float64'
     return df2
     
 def binByScore3(df, quantile = .10):
@@ -57,6 +65,10 @@ def binByScore3(df, quantile = .10):
     df2['Bin'][quantile*ncases:-nmissing] = 0
     df2['Bin'][-nmissing:] = np.nan
     df2 = df2.drop([col, 'Compared to National'], 1)
+    assert 'Compared to National' not in df2.columns
+    assert 'Score' not in df2.columns
+    assert 'Bin' in df2.columns
+    assert df2['Bin'].dtype == 'float64'
     return df2
 
 def binByLabel(df):
@@ -74,4 +86,8 @@ def binByLabel(df):
             return 0
     df2['Bin'] = df2[col].map(binning)
     df2 = df2.drop(['Score', col], 1)
+    assert 'Compared to National' not in df2.columns
+    assert 'Score' not in df2.columns
+    assert 'Bin' in df2.columns
+    assert df2['Bin'].dtype == 'float64'
     return df2
