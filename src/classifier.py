@@ -40,23 +40,22 @@ def testLogisticRegression():
     # TODO make roc graph and choose best cutoff by examining it graphically, optimize for recall.
     
 
-def BestAUCLogisiticRegression(X, Y, regularization_type='l2'):
+def BestAUCLogisiticRegression(X_train, Y_train, regularization_type='l2'):
     logistic_regression_params = [10**i for i in range(-3,7)] + [1e30]
     best_c = None
     best_auc = None
-    best_classifier = None
 
     for c in logistic_regression_params:
         classifier = linear_model.LogisticRegression(C=c, penalty=regularization_type) 
-        auc = meanAUCCrossValidation(X, Y, classifier)
+        auc = meanAUCCrossValidation(X_train, Y_train, classifier)
         if not best_c or best_auc < auc:
             best_c = c
             best_auc = auc
-            best_classifier = classifier
     print 'best C for logistic regression', best_c, 'results in AUC', best_auc
     # L2: Best value for C seems to be 100, it gives AUC ~= .70. These means that some regularization is helpful.
     # L1: Best value for C seems to be 10, it gives AUC ~= .68
-    return best_classifier
+    classifier = linear_model.LogisticRegression(C=best_c, penalty=regularization_type)
+    return classifier.fit(X_train, Y_train)
     
 
 def meanAUCCrossValidation(X, Y, classifier, num_folds=5):
