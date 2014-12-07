@@ -153,7 +153,7 @@ def processSpendingData(base_DF):
 
 
     spending_total = DFs[0].join(DFs[1], how = 'outer') # merge spending DFs to eachother
-    print spending_total.head()
+    #    print spending_total.head()
     joined_df = base_DF.join(spending_total, how = 'left') #merge spending DF with base. keep only lines with base_df provider ID's
 
     joined_df.Spending_per_patient_2012.replace(np.nan, joined_df.Spending_per_patient_2012.mean(), inplace=True )

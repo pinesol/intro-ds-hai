@@ -1,5 +1,6 @@
 '''Functions used to parse data that are not specific to a particular file.'''
 
+import numpy as np
 import pandas as pd
 
 # DEPRECATED
@@ -114,3 +115,158 @@ def ImportSCIPData(year_str):
             #df[column_name + "_dummy"] = (df[column_name] != bad_value) * 1
             df[column_name] = df[column_name].replace(to_replace=bad_value, value=column_mean).astype(int)
     return df
+
+
+def splitTestTrainIndicesWithProxy(DF, target_column_name, proxy_column_name, train_size = 0.8):
+    """This splits a dataframe into training and testing dataframes, ensuring up the positive target values 
+    are distributed between them according to the given ratio. 
+    
+    This function splits the training and test data according to the train_size value.
+    The training data gets 100*train_size percent of the data, and the test data gets 100*(1-train_size)
+    percent of the data.
+    Additionally, this ensures that the training set has at least 100*train_size percent of the positive target
+    values AND 100*train_size percent of the proxy training values.
+    Likewise it ensures that the test set has at least 100*(1-train_size) percent of the positive target
+    values AND 100*(1-train_size) percent of the proxy test values.
+    
+    Arguments:
+       DF: a pandas dataframe on which to do the analysis.
+           DF must contain at the very least the columns: [proxy_column_name, target_column_name] and one feature.
+
+       target_column_name: the name of the column containing the binary target variable.
+       
+       proxy_column_name: the name of the column containing the binary proxy variable.
+       
+       train_size: float. the mean fraction of overall positives we want the training DF to contain. default = 0.8.
+    Returns:
+        (train_ix, test_ix): A tuple of sets. The first set has the index values of DF that should go in the training data.
+           The second set is has the index values of DF that should go in the test data.
+    Raises:
+        Exception: If a training and test sets that conform to the train_size parameter after several attempts, 
+          an exception is thrown to prevent an infinite loop.
+    """
+    super_set = set(DF.index)
+    condition_a = condition_b = condition_c = condition_d = False
+    
+    # calculate the minimum number of positives in the target and proxy 
+    min_positives_target_train = np.floor(np.sum(DF[target_column_name])*train_size)
+    min_positives_proxy_train = np.floor(np.sum(DF[proxy_column_name])*train_size)
+    # The test set must have (1-train_size) positives at least.
+    min_positives_target_test = np.floor(np.sum(DF[target_column_name])*(1-train_size))
+    min_positives_proxy_test = np.floor(np.sum(DF[proxy_column_name])*(1-train_size))
+   
+    # The train and test indexes to determine.
+    train_ix = None
+    test_ix = None
+    
+    # Have we found enough positive target variables in the training data?
+    min_positive_target_train_found = False
+    # Have we found enough positive proxy variables in the training data?
+    min_positive_proxy_train_found = False
+    # Have we found enough positive target variables in the test data?
+    min_positive_target_test_found = False
+    # Have we found enough positive proxy variables in the test data?
+    min_positive_proxy_test_found = False
+    
+    MAX_ITERATIONS = 100
+    iterations = 1
+    
+    while not (min_positive_target_train_found and min_positive_proxy_train_found and
+               min_positive_target_test_found and min_positive_proxy_test_found):
+        if iterations > MAX_ITERATIONS:
+            raise Exception('Couldn\'t find an acceptable training/test data split!')
+        iterations += 1
+        
+        # Randomly choose a training/test split. The training/test split is 80/20.
+        train_ix = np.random.choice(DF.index, size=np.floor(train_size*len(DF.index)), replace=False)
+        train_ix = set(train_ix)
+        test_ix = super_set-train_ix
+
+        # calculate number of positives in target
+        positives_target_train = DF[target_column_name].ix[train_ix].sum()
+        positives_target_test = DF[target_column_name].ix[test_ix].sum()
+        # calculate number of positives in proxy
+        positives_proxy_train = DF[proxy_column_name].ix[train_ix].sum()
+        positives_proxy_test = DF[proxy_column_name].ix[test_ix].sum()
+        
+        # Make sure there is at least the minimum amount of positives in target for train and test.
+        min_positive_target_train_found = positives_target_train >= min_positives_target_train
+        min_positive_target_test_found = positives_target_test >= min_positives_target_test
+        # Make sure there is at least the minimum amount of positives in proxy for train and test.
+        min_positive_proxy_train_found = positives_proxy_train >= min_positives_proxy_train
+        min_positive_proxy_test_found = positives_proxy_test >= min_positives_proxy_test
+        
+    # make sure we didn't lose any indices
+    assert (train_ix | test_ix) == super_set
+    
+    #print 'Positives in target training:', positives_target_train
+    #print 'Positives in proxy training:', positives_proxy_train
+    #print 'Positives in target test:', positives_target_test
+    #print 'Positives in proxy test:', positives_proxy_test
+    
+    return train_ix, test_ix
+
+def splitTestTrainIndices(DF, target_column_name, train_size = 0.8):
+    """This splits a dataframe into training and testing dataframes, ensuring up the positive target values 
+    are distributed between them according to the given ratio. 
+    
+    This function is just like splitTestTrainIndicesWithProxy above, except there is no proxy column.
+
+    Arguments:
+       DF: a pandas dataframe on which to do the analysis.
+           DF must contain at the very least the columns: [target_column_name] and one feature.
+       target_column_name: the name of the column containing the binary target variable.
+       train_size: float. the mean fraction of overall positives we want the training DF to contain. default = 0.8.
+    Returns:
+        (train_ix, test_ix): A tuple of sets. The first set has the index values of DF that should go in the training data.
+           The second set is has the index values of DF that should go in the test data.
+    Raises:
+        Exception: If a training and test sets that conform to the train_size parameter after several attempts, 
+          an exception is thrown to prevent an infinite loop.
+    """
+    super_set = set(DF.index)
+    condition_a = condition_b = condition_c = condition_d = False
+    
+    # calculate the minimum number of positives in the target
+    min_positives_target_train = np.floor(np.sum(DF[target_column_name])*train_size)
+    # The test set must have (1-train_size) positives at least.
+    min_positives_target_test = np.floor(np.sum(DF[target_column_name])*(1-train_size))
+   
+    # The train and test indexes to determine.
+    train_ix = None
+    test_ix = None
+    
+    # Have we found enough positive target variables in the training data?
+    min_positive_target_train_found = False
+    # Have we found enough positive target variables in the test data?
+    min_positive_target_test_found = False
+    
+    MAX_ITERATIONS = 100
+    iterations = 1
+    
+    while not (min_positive_target_train_found and min_positive_target_test_found):
+        if iterations > MAX_ITERATIONS:
+            raise Exception('Couldn\'t find an acceptable training/test data split!')
+        iterations += 1
+        
+        # Randomly choose a training/test split. The training/test split is 80/20.
+        train_ix = np.random.choice(DF.index, size=np.floor(train_size*len(DF.index)), replace=False)
+        train_ix = set(train_ix)
+        test_ix = super_set-train_ix
+
+        # calculate number of positives in target
+        positives_target_train = DF[target_column_name].ix[train_ix].sum()
+        positives_target_test = DF[target_column_name].ix[test_ix].sum()
+        
+        # Make sure there is at least the minimum amount of positives in training.
+        min_positive_target_train_found = positives_target_train >= min_positives_target_train
+        # Make sure there is at least the minimum amount of positives in test.
+        min_positive_target_test_found = positives_target_test >= min_positives_target_test
+        
+    # make sure we didn't lose any indices
+    assert (train_ix | test_ix) == super_set
+    
+    #print 'Positives in target training:', positives_target_train
+    #print 'Positives in target test:', positives_target_test
+    
+    return train_ix, test_ix
