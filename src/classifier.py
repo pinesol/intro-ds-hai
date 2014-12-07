@@ -9,12 +9,12 @@ from sklearn.cross_validation import KFold
 from sklearn.metrics import roc_curve, auc
 
 # Local files, intro-ds-hai/src/ directly must be in the path.
+import binning_utils
 import data_utils
 import merge_data
 
-
 def testLogisticRegression():
-    initial_data = merge_data.mergeAllTheThings()
+    initial_data = merge_data.mergeAllTheThings(binning_utils.binByLabel)
     
     Y = initial_data['Bin 2014']
     X = initial_data.drop('Bin 2014', 1)
@@ -68,7 +68,7 @@ def meanAUCCrossValidation(X, Y, classifier, num_folds=5):
         X_test = X.iloc[test_index]
         Y_test = Y.iloc[test_index]
        
-        scores = classifier.fit(X_train, Y_train).predict_proba(X_test)[:,1] # TODO use .decision_function(X_test)? seems to work out the same
+        scores = classifier.fit(X_train, Y_train).decision_function(X_test)
         auc = metrics.roc_auc_score(Y_test, scores)
         aucs.append(auc)
 
