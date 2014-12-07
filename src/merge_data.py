@@ -9,7 +9,7 @@ import hai_data_cleanup
 
 def mergeAllTheThings():
     '''Function that creates the final table that will be sent for classification.'''
-    data = mergeHAITables(binning_utils.binByLabel) # TODO: experiment with other binning functions
+    data = mergeHAITables(binning_utils.binByLabel, binning_utils.binByLabel, binning_utils.binByLabel) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
     data = processVolumeData(data)
@@ -33,9 +33,10 @@ def mergeAllTheThings():
             assert np.isreal(data[column][index]), 'Data with Provider ID %i in column %s has non-numeric data: %s.' % (index, column, data[column][index])
     return data
 
+
 def mergeAllTheThingsForProxy():
     '''Function that creates the final table that will be sent for classification.'''
-    data = mergeHAITablesForProxy(binning_utils.binByLabel,binning_utils.binByLabel) # TODO: experiment with other binning functions
+    data = mergeHAITables(binning_utils.binByLabel, binning_utils.binByLabel, binning_utils.binByLabel) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
     data = processVolumeData(data)
@@ -55,17 +56,16 @@ def mergeAllTheThingsForProxy():
             assert np.isreal(data[column][index]), 'Data with Provider ID %i in column %s has non-numeric data: %s.' % (index, column, data[column][index])
     return data
 
-def mergeHAITablesForProxy(target_binning_func, proxy_binning_function):   
+
+def mergeHAITables(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binning_func):
     '''Merges the three hospital acquired infection data frames into one that can be classified.
-    This function takes two different functions: one function that will be used on the target variable and one function 
-    that will be used on the proxy variable on which we are training. We require two different functions because, by design,
-    the proxy binning function will have about 10 times more positives than the target variable. 
     The resulting data frame will be indexed by provider ID, have the location data for the
     hospital, and the HAI scores from all three years.
 
     Args:
-        target_binning_func: function to apply on the target variable. 
-        proxy_binning_function: function to apply on the proxy variable. less conservative than the target binning function.
+      hai_2014_binning_func: The binning function from binning_utils.py that will be applied to the 2014 HAI scores.
+      hai_2013_binning_func: The binning function from binning_utils.py that will be applied to the 2013 HAI scores.
+      hai_2012_binning_func: The binning function from binning_utils.py that will be applied to the 2012 HAI scores.
 
     The columns of the returned table are:
     ['AK', 'AL', 'AR', 'AZ', 'Bin 2012', 'Bin 2013', 'Bin 2014', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL',
@@ -73,10 +73,9 @@ def mergeHAITablesForProxy(target_binning_func, proxy_binning_function):
     'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 
     'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
     '''
-
    # Extract out the 2014 score column, keeping the index. This will be the target column.
     hai_2014 = hai_data_cleanup.parseHAIboth('data/2014/Healthcare Associated Infections - Hospital.csv', '2014')
-    hai_2014 = target_binning_func(hai_2014)
+    hai_2014 = hai_2014_binning_func(hai_2014)
     # Removing rows with null target variables
     hai_2014 = hai_2014[hai_2014['Bin'].notnull()]
     # Renaming target column
@@ -92,7 +91,7 @@ def mergeHAITablesForProxy(target_binning_func, proxy_binning_function):
 
     # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2012 = hai_data_cleanup.parseHAIboth('data/2012/Healthcare_Associated_Infections.csv', '2012')
-    hai_2012 = target_binning_func(hai_2012)
+    hai_2012 = hai_2012_binning_func(hai_2012)
     # Renaming target column to reflect year
     hai_2012['Bin 2012'] = hai_2012['Bin']
     hai_2012_score = pd.DataFrame(hai_2012['Bin 2012'], index=hai_2012.index)
@@ -101,80 +100,7 @@ def mergeHAITablesForProxy(target_binning_func, proxy_binning_function):
 
     # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2013 = hai_data_cleanup.parseHAIboth('data/2013/Healthcare_Associated_Infections.csv', '2013')
-    hai_2013 = proxy_binning_function(hai_2013)
-    # Renaming target column to reflect year
-    hai_2013['Bin 2013'] = hai_2013['Bin']
-    hai_2013_score = pd.DataFrame(hai_2013['Bin 2013'], index=hai_2013.index)
-    # filling in NaNs with zeros
-    hai_2013_score = hai_2013_score.fillna(0)
-
-    # Creating the final table, join the 2013 location and HAI score data, with the 2012 and 2014 scores.
-    final_table = hai_2014
-    final_table = final_table.join(hai_2013_score, how = 'left')
-    # filling in missing 2013 HAI scores with zeros
-    final_table['Bin 2013'] = final_table['Bin 2013'].fillna(0)
-    # joining in the 2012 HAI scores
-    final_table = final_table.join(hai_2012_score, how = 'left')
-    # filling in missing 2012 HAI scores with zeros
-    final_table['Bin 2012'] = final_table['Bin 2012'].fillna(0)
-    
-    # Tests
-    # There should be exactly 2005 rows in the table
-    assert 2005 == len(final_table)
-    # The of hospitals in the final table should equal the set from 2014
-    assert set(hai_2014.index) == set(final_table.index)
-    # There shuld be no duplicate provider IDs
-    assert sorted(set(final_table.index)) == sorted(final_table.index)
-    # Check that the columns are what we expect.
-    expected_columns = ['AK', 'AL', 'AR', 'AZ', 'Bin 2012', 'Bin 2013', 'Bin 2014', 'CA', 'CO', 
-                        'CT', 'DC', 'DE', 'FL', 'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 
-                        'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 
-                        'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 
-                        'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
-    assert expected_columns == sorted(final_table.columns.values), sorted(final_table.columns.values)    
-    return final_table
-
-
-
-def mergeHAITables(hai_binning_func):   
-    '''Merges the three hospital acquired infection data frames into one that can be classified.
-    The resulting data frame will be indexed by provider ID, have the location data for the
-    hospital, and the HAI scores from all three years.
-
-    The columns of the returned table are:
-    ['AK', 'AL', 'AR', 'AZ', 'Bin 2012', 'Bin 2013', 'Bin 2014', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL',
-    'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 
-    'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 
-    'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
-    '''
-   # Extract out the 2014 score column, keeping the index. This will be the target column.
-    hai_2014 = hai_data_cleanup.parseHAIboth('data/2014/Healthcare Associated Infections - Hospital.csv', '2014')
-    hai_2014 = hai_binning_func(hai_2014)
-    # Removing rows with null target variables
-    hai_2014 = hai_2014[hai_2014['Bin'].notnull()]
-    # Renaming target column
-    hai_2014['Bin 2014'] = hai_2014['Bin']
-    hai_2014 = hai_2014.drop('Bin', 1)
-
-    # Dropping the City column because there's just too many of them to make each one have its own column.
-    hai_2014 = hai_2014.drop('City', 1)
-    # Making the state column into 50 different columns
-    hai_2014 = pd.concat([hai_2014, pd.get_dummies(hai_2014['State'])], axis=1)
-    # Drop the State column now that it's no longer needed.
-    hai_2014 = hai_2014.drop('State', 1)
-
-    # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
-    hai_2012 = hai_data_cleanup.parseHAIboth('data/2012/Healthcare_Associated_Infections.csv', '2012')
-    hai_2012 = hai_binning_func(hai_2012)
-    # Renaming target column to reflect year
-    hai_2012['Bin 2012'] = hai_2012['Bin']
-    hai_2012_score = pd.DataFrame(hai_2012['Bin 2012'], index=hai_2012.index)
-    # filling in NaNs with zeros
-    hai_2012_score = hai_2012_score.fillna(0)
-
-    # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
-    hai_2013 = hai_data_cleanup.parseHAIboth('data/2013/Healthcare_Associated_Infections.csv', '2013')
-    hai_2013 = hai_binning_func(hai_2013)
+    hai_2013 = hai_2013_binning_func(hai_2013)
     # Renaming target column to reflect year
     hai_2013['Bin 2013'] = hai_2013['Bin']
     hai_2013_score = pd.DataFrame(hai_2013['Bin 2013'], index=hai_2013.index)
