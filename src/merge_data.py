@@ -12,6 +12,7 @@ def mergeAllTheThings():
     data = mergeHAITables(binning_utils.binByLabel) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
+    data = processVolumeData(data)
     
     # TODO(alex, jackie, maya): glom on moar feature columns!
     # e.g.
@@ -153,7 +154,6 @@ def processSpendingData(base_DF):
 
 
     spending_total = DFs[0].join(DFs[1], how = 'outer') # merge spending DFs to eachother
-    print spending_total.head()
     joined_df = base_DF.join(spending_total, how = 'left') #merge spending DF with base. keep only lines with base_df provider ID's
 
     joined_df.Spending_per_patient_2012.replace(np.nan, joined_df.Spending_per_patient_2012.mean(), inplace=True )
@@ -161,6 +161,40 @@ def processSpendingData(base_DF):
     
     return joined_df
 
-
+def processVolumeData(aggregated):
+	df_2013 = data_utils.parseFileWithIndex('data/2013/Medicare Volume Measures.csv', 
+                               ['Diagnosis Related Group', 'Number Of Cases'])
+	df_2012 = data_utils.parseFileWithIndex('data/2012/Medicare Payment and Volume Measures.csv', 
+                               ['Diagnosis Related Group', 'Number Of Cases'])
+    
+	mincases = '10'
+	missing_marker = '*'
+	
+	reformatted = []
+	for df in [df_2013, df_2012]:
+		df['Number Of Cases'][df['Number Of Cases'] == missing_marker] = mincases
+		df['Number Of Cases'] = df['Number Of Cases'].str.replace(",", "")
+		df['Number Of Cases'] = df['Number Of Cases'].astype(float)
+    
+		hospitals = pd.unique(df.index)
+		cols = pd.unique(df['Diagnosis Related Group'])
+    
+		df2 = pd.DataFrame(data = 0, index = hospitals, columns = cols)
+		for col in cols:
+			x = df['Number Of Cases'][df['Diagnosis Related Group'] == col]
+			df2[col] = x
+		reformatted.append(df2)
+	
+	reformatted[0].columns = reformatted[0].columns.map(lambda x: str(x) + ' 2013')
+	volume = reformatted[0].join(reformatted[1], how = 'outer', rsuffix=' 2012')
+	volume[pd.isnull(volume)] = mincases 
+	
+	data = aggregated.copy()
+	volume = volume.ix[data.index]
+	volume.replace(np.nan, mincases, inplace=True)
+	data[volume.columns] = volume
+	return data
+    	
+    
 if __name__ == '__main__':
     print "Head of final dataframe to classify: %s" % mergeAllTheThings().head()
