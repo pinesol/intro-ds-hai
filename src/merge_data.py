@@ -60,6 +60,8 @@ def mergeHAITables(hai_binning_func):
     # Drop the State column now that it's no longer needed.
     hai_2014 = hai_2014.drop('State', 1)
 
+	# Note that for 2012 and 2013, we might want to use the actual scores rather than the bins
+	
     # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2012 = hai_data_cleanup.parseHAIboth('data/2012/Healthcare_Associated_Infections.csv', '2012')
     hai_2012 = hai_binning_func(hai_2012)
@@ -69,7 +71,7 @@ def mergeHAITables(hai_binning_func):
     # filling in NaNs with zeros
     hai_2012_score = hai_2012_score.fillna(0)
 
-    # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
+    # Getting the 2013 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2013 = hai_data_cleanup.parseHAIboth('data/2013/Healthcare_Associated_Infections.csv', '2013')
     hai_2013 = hai_binning_func(hai_2013)
     # Renaming target column to reflect year

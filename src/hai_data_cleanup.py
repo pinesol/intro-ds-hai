@@ -116,6 +116,8 @@ def parseHAIboth(filename, year_str):
 	data1 = parseHAIFile(filename, year_str)
 	data2 = parseHAIbyBinLabel(filename, year_str)
 	data2['Score'] = data1['Score']
+	assert 'Compared to National' in data2.columns
+	assert 'Score' in data2.columns
 	return data2
     
 def _binByCI(data, lowerLabel, upperLabel, valueLabel):
