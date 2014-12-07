@@ -7,23 +7,26 @@
 import numpy as np
 import pandas as pd
 
-def binByScore1(df):
-    '''All SIR scores greater than 1 labeled as positive (Bin=1), otherwise 0.
+# This exposes the 23 positives, as given from the original data.
+def binByLabel(df):
+    '''Uses the pre-supplied bin labels output by parseHAIbyBinLabel function.
+    Bin = 1 if Compared to National is worse than average, otherwise 0.
     Returns dataframe with target in df['Bin'].'''
     df2 = df.copy()
-    col = 'Score'
+    col = 'Compared to National'
     def binning(score):
         if np.isnan(score):
             return np.nan
-        elif score > 1:
+        elif score == -1:
             return 1
         else: 
             return 0
     df2['Bin'] = df2[col].map(binning)
-    df2 = df2.drop([col, 'Compared to National'], 1)
+    df2 = df2.drop(['Score', col], 1)
     return df2
 
-def binByScore2(df, upper = 2):
+# This results in 97 positives in 2014 when using quantile 0.1. 
+def binByScore1(df, upper = 2):
     '''All SIR scores greater than k standard deviations above the mean labeled 
     as positive (Bin=1), otherwise 0. Default = 2 SD above mean.
     Returns dataframe with target in df['Bin'].'''
@@ -42,8 +45,9 @@ def binByScore2(df, upper = 2):
     df2['Bin'] = z_scores.map(binning)
     df2 = df2.drop([col, 'Compared to National'], 1)
     return df2
-    
-def binByScore3(df, quantile = .10):
+
+# This results in 201 positives in 2014 when using quantile 0.1.
+def binByScore2(df, quantile = .10):
     '''All SIR scores in the worst k percentile of the data labeled 
     as positive (Bin=1), otherwise 0. Default = highest 10th percentile.
     Returns dataframe with target in df['Bin'].'''
@@ -62,19 +66,20 @@ def binByScore3(df, quantile = .10):
     df2 = df2.drop([col, 'Compared to National'], 1)
     return df2
 
-def binByLabel(df):
-    '''Uses the pre-supplied bin labels output by parseHAIbyBinLabel function.
-    Bin = 1 if Compared to National is worse than average, otherwise 0.
+# This results in 296 positives in 2014.
+def binByScore3(df):
+    '''All SIR scores greater than 1 labeled as positive (Bin=1), otherwise 0.
     Returns dataframe with target in df['Bin'].'''
     df2 = df.copy()
-    col = 'Compared to National'
+    col = 'Score'
     def binning(score):
         if np.isnan(score):
             return np.nan
-        elif score == -1:
+        elif score > 1:
             return 1
         else: 
             return 0
     df2['Bin'] = df2[col].map(binning)
-    df2 = df2.drop(['Score', col], 1)
+    df2 = df2.drop([col, 'Compared to National'], 1)
     return df2
+    
