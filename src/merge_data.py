@@ -33,9 +33,9 @@ def mergeAllTheThings():
             assert np.isreal(data[column][index]), 'Data with Provider ID %i in column %s has non-numeric data: %s.' % (index, column, data[column][index])
     return data
 
-def mergeAllTheThingsForProxy():
+def mergeAllTheThingsForProxy(target_binning_func, proxy_binning_function):
     '''Function that creates the final table that will be sent for classification.'''
-    data = mergeHAITablesForProxy(binning_utils.binByLabel,binning_utils.binByLabel) # TODO: experiment with other binning functions
+    data = mergeHAITablesForProxy(target_binning_func, proxy_binning_function) # TODO: experiment with other binning functions
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
     data = processVolumeData(data)
