@@ -169,6 +169,7 @@ def processVolumeData(aggregated):
     
 	mincases = '10'
 	missing_marker = '*'
+	test_column = 'Chest Pain 2013';
 	
 	reformatted = []
 	for df in [df_2013, df_2012]:
@@ -184,16 +185,19 @@ def processVolumeData(aggregated):
 			x = df['Number Of Cases'][df['Diagnosis Related Group'] == col]
 			df2[col] = x
 		reformatted.append(df2)
+		assert 'Number of Cases' not in df2.columns
+		assert 'Diagnosis Related Group' not in df2.columns
 	
 	reformatted[0].columns = reformatted[0].columns.map(lambda x: str(x) + ' 2013')
 	volume = reformatted[0].join(reformatted[1], how = 'outer', rsuffix=' 2012')
-	volume[pd.isnull(volume)] = mincases 
+	assert test_column in volume.columns
+	volume[pd.isnull(volume)] = float(mincases) 
+	merged_final_data = aggregated.join(volume, how='left')
+	merged_final_data = merged_final_data.fillna(float(mincases))
+	return merged_final_data
+    
 	
-	data = aggregated.copy()
-	volume = volume.ix[data.index]
-	volume.replace(np.nan, mincases, inplace=True)
-	data[volume.columns] = volume
-	return data
+	
     	
     
 if __name__ == '__main__':
