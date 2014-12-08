@@ -28,12 +28,15 @@ def mergeAllTheThings(binning_func):
 
     # Tests
     # Check that every data entry in the dataframe is numeric (using numpy's isreal function).
-    
+    testData(data)
+    return data
+
+def testData(data):
     for index, row in data.iterrows():
         for column in data.columns.values:
             assert not np.isnan(data[column][index]), 'Data with Provider ID %i in column %s is NaN: %s.' % (index, column, data[column][index])
             assert np.isreal(data[column][index]), 'Data with Provider ID %i in column %s has non-numeric data: %s.' % (index, column, data[column][index])
-    return data
+
 
 def mergeAllTheThingsForProxy(target_binning_func, proxy_binning_function):
     '''Function that creates the final table that will be sent for classification.'''
@@ -76,7 +79,7 @@ def mergeHAITables(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binnin
     'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 
     'SD', 'TN', 'TX', 'UT', 'VA', 'VI', 'VT', 'WA', 'WI', 'WV', 'WY']
     '''
-   # Extract out the 2014 score column, keeping the index. This will be the target column.
+    # Extract out the 2014 score column, keeping the index. This will be the target column.
     hai_2014 = hai_data_cleanup.parseHAIboth('data/2014/Healthcare Associated Infections - Hospital.csv', '2014')
     hai_2014 = hai_2014_binning_func(hai_2014)
     # Removing rows with null target variables
@@ -137,16 +140,19 @@ def mergeHAITables(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binnin
     return final_table
 
 
+def createAllDatasets(binning_func):
+    dataset_dict = {}
+    hai_data = mergeHAITables(hai_2014_binning_func=binning_func, 
+                              hai_2013_binning_func=binning_func, 
+                              hai_2012_binning_func=binning_func)
+    dataset_dict['autoregressive'] = pd.concat([hai_data['Bin 2014'], hai_data['Bin 2013'], hai_data['Bin 2012']], axis=1)
+    dataset_dict['hai_scip'] =  mergeSCIPDataframes(hai_data)
+    dataset_dict['hai_scip_spending'] = processSpendingData(dataset_dict['hai_scip'])
+    dataset_dict['hai_scip_spending_volume'] = processVolumeData(dataset_dict['hai_scip_spending'])
 
-def createAllDatasets(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binning_func):
-    # TODO return a dictionary
-    # TODO autoregressive
-    # TODO states
-    # TODO states+scip
-    # TODO states+scip+spending
-    # TODO states+scip+spending+volume
-
-
+    for dataset in dataset_dict.values():
+        testData(dataset)
+    return dataset_dict
 
 
 def mergeSCIPDataframes(data):

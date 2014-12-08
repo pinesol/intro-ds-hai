@@ -14,8 +14,14 @@ import data_utils
 import merge_data
 
 
-def testLogisticRegression():
-    data = merge_data.mergeAllTheThings(binning_utils.binByLabel)
+def testAllDatasets():
+    datasets = merge_data.createAllDatasets(binning_utils.binByLabel)
+    for name, data in datasets.iteritems():
+        print 'testing:', name
+        testLogisticRegression(data)
+
+def testLogisticRegression(data):
+    # TODO different binning functions
     
     Y = data['Bin 2014']
     X = data.drop('Bin 2014', 1)
@@ -120,4 +126,4 @@ def optimizeLogisiticRegression(X_train, Y_train, scorer, regularization_type='l
 #how many true positives is our auc based off of?
 
 if __name__ == '__main__':
-    testLogisticRegression()
+    testAllDatasets()
