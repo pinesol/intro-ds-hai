@@ -82,4 +82,16 @@ def binByScore3(df):
     df2['Bin'] = df2[col].map(binning)
     df2 = df2.drop([col, 'Compared to National'], 1)
     return df2
+
+
+def binByScore4(df):
+    '''This is the no-op binning function, it changes the column name from 'Compared to National' to
+    'Bin', but it leaves the float score as-is.'''
+    df2 = df.copy()
+    col = 'Score'
+    def binning(score):
+        return score
+    df2['Bin'] = df2[col].map(binning)
+    df2 = df2.drop([col, 'Compared to National'], 1)
+    return df2
     

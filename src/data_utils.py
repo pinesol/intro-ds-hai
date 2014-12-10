@@ -270,3 +270,9 @@ def splitTestTrainIndices(DF, target_column_name, train_size = 0.8):
     #print 'Positives in target test:', positives_target_test
     
     return train_ix, test_ix
+
+def splitTrainAndTarget(data):
+    '''Splits out the Bin 2014 column, returning (X, Y).'''
+    Y = data['Bin 2014']
+    X = data.drop('Bin 2014', 1)
+    return X, Y
