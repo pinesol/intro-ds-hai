@@ -141,14 +141,20 @@ def mergeHAITables(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binnin
 
 
 def createAllDatasets(binning_func):
+    '''Creates a dictionary that maps a dataset name to a dataframe.
+    Contains the following two datasets:
+    autoregressive, all_data.
+    '''
     dataset_dict = {}
     hai_data = mergeHAITables(hai_2014_binning_func=binning_func, 
                               hai_2013_binning_func=binning_func, 
                               hai_2012_binning_func=binning_func)
     dataset_dict['autoregressive'] = pd.concat([hai_data['Bin 2014'], hai_data['Bin 2013'], hai_data['Bin 2012']], axis=1)
-    dataset_dict['hai_scip'] =  mergeSCIPDataframes(hai_data)
-    dataset_dict['hai_scip_spending'] = processSpendingData(dataset_dict['hai_scip'])
-    dataset_dict['hai_scip_spending_volume'] = processVolumeData(dataset_dict['hai_scip_spending'])
+    
+    all_data = mergeSCIPDataframes(hai_data)
+    all_data = processSpendingData(all_data)
+    all_data = processVolumeData(all_data)
+    dataset_dict['all_data'] = all_data
 
     for dataset in dataset_dict.values():
         testData(dataset)
