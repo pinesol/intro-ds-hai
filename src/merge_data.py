@@ -7,11 +7,11 @@ import binning_utils
 import data_utils
 import hai_data_cleanup
 
-def mergeAllTheThings(binning_func):
+def mergeAllTheThings(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binning_func):
     '''Function that creates the final table that will be sent for classification.'''
-    data = mergeHAITables(hai_2014_binning_func=binning_func, 
-                          hai_2013_binning_func=binning_func, 
-                          hai_2012_binning_func=binning_func)
+    data = mergeHAITables(hai_2014_binning_func=hai_2014_binning_func, 
+                          hai_2013_binning_func=hai_2013_binning_func, 
+                          hai_2012_binning_func=hai_2012_binning_func)
     data = mergeSCIPDataframes(data)
     data = processSpendingData(data) #process and glom on spending DF
     data = processVolumeData(data)
@@ -232,25 +232,22 @@ def mergeHAITables_Proxy(Target_binning_func, Proxy_binning_func):
     ########################################################################
 
 
-def createAllDatasets(binning_func):
-    '''Creates a dictionary that maps a dataset name to a dataframe.
-    Contains the following two datasets:
-    autoregressive, all_data.
+def createAllDatasets(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binning_func):
+    '''Returns the following two datasets: "autoregressive" (only HAI data), and "all_data".
     '''
     dataset_dict = {}
-    hai_data = mergeHAITables(hai_2014_binning_func=binning_func, 
-                              hai_2013_binning_func=binning_func, 
-                              hai_2012_binning_func=binning_func)
-    dataset_dict['autoregressive'] = pd.concat([hai_data['Bin 2014'], hai_data['Bin 2013'], hai_data['Bin 2012']], axis=1)
+    hai_data = mergeHAITables(hai_2014_binning_func=hai_2014_binning_func,
+                              hai_2013_binning_func=hai_2013_binning_func, 
+                              hai_2012_binning_func=hai_2012_binning_func)
+    autoregressive = pd.concat([hai_data['Bin 2014'], hai_data['Bin 2013'], hai_data['Bin 2012']], axis=1)
     
     all_data = mergeSCIPDataframes(hai_data)
     all_data = processSpendingData(all_data)
     all_data = processVolumeData(all_data)
-    dataset_dict['all_data'] = all_data
 
     for dataset in dataset_dict.values():
         testData(dataset)
-    return dataset_dict
+    return autoregressive, all_data
 
 
 def mergeSCIPDataframes(data):
