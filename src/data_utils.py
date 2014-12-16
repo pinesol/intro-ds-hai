@@ -276,3 +276,35 @@ def splitTrainAndTarget(data):
     Y = data['Bin 2014']
     X = data.drop('Bin 2014', 1)
     return X, Y
+
+
+
+def partition_data(train_test_ix, holdout_ix, DF , proxy_column_name,target_column_name):
+    """ Function partitions the data into 2 pd.Series (one for the Target Variable and one for the Proxy variable) and 1 features DataFrame. It then splits each of 3 componant mentions above into a training\crossvalidation chunck and a holdout chunck. 
+        Args:
+            DF: a pandas DF containing at least the Proxy Variable the Target Variable and one additional feature.
+            proxy_column_name: name of column in DF that will be our proxy variable.
+            target_column_name: name of column in DF that will be our target variable.
+
+        Returns:
+        X_train_test: a DataFrame of features containing 80% of the rows for crossvalidation and training
+        X_holdout: a DataFrame of features containing 20% of the rows for our holdout set.
+        Y_train_test: a Series containing the Target variable with 80% of the instances for crossvalidation and training.
+        Y_holdout: a Series containing the Target variable with 20% of the instances for out holdout set.
+        Y_s_train_test:a Series containing the Proxy variable with 80% of the instances for crossvalidation and training.
+        Y_s_holdout : a Series containing the Proxy variable with 20% of the instances for out holdout set.
+
+
+    """
+    Y = DF[target_column_name]
+    Y_s = DF[proxy_column_name] 
+    X = DF.drop([proxy_column_name,target_column_name],axis = 1)
+
+    train_test_ix, holdout_ix = splitTestTrainIndicesWithProxy(DF, target_column_name, 
+                                                               proxy_column_name, train_size = 0.8)
+
+    X_train_test, X_holdout = X.ix[train_test_ix], X.ix[holdout_ix]
+    Y_train_test, Y_holdout = Y.ix[train_test_ix], Y.ix[holdout_ix]
+    Y_s_train_test, Y_s_holdout = Y_s.ix[train_test_ix], Y_s.ix[holdout_ix]
+    
+    return X_train_test, X_holdout,Y_train_test, Y_holdout,Y_s_train_test, Y_s_holdout
