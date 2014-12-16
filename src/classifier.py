@@ -171,6 +171,19 @@ def testDataset():
     for score in sorted(score_to_columns_map):
         print score, score_to_columns_map[score]
 
+
+def GetROCDataProxy(X_train_test, X_holdout,Y_train_test, Y_holdout,Y_s_train_test, classifier):
+    print '-- Number of positives: Y train (Proxy variable)', sum(Y_s_train_test)
+    print '-- Number of positives: Y test (Target variable)', sum(Y_holdout)
+
+    classifier.fit(X_train_test, Y_s_train_test)
+    if hasattr(classifier, 'support_'):
+        print 'number of features:', len(X_train.columns.values)
+        print 'Useful features:', [col for col_used, col in zip(classifier.support_, X_train_test.columns.values) if col_used]
+    fpr, tpr, thresholds = metrics.roc_curve(Y_holdout, classifier.decision_function(X_holdout))
+    print '-- Number of ROC threshold values', len(thresholds)    
+    return fpr, tpr, metrics.auc(fpr, tpr)
+
 # Plan, I update these functions to do the following:
 # Vary on different versions of the data (autoregressive, standard binning, different binning, w/general info, w/volume, etc.)
 # For each classifier, find best AUC, that's the best classifier+data pair, choose cutoff point best for recall somehow
