@@ -74,7 +74,7 @@ def GetROCData(data, train_ix, test_ix, classifier):
     return fpr, tpr, metrics.auc(fpr, tpr)
 
 # Graph AUC curves of all four binning functions
-def GraphROCs(label_data, bin_1_data, bin_2_data, bin_3_data, train_ix, test_ix, classifier):
+def GraphROCs(label_data, bin_1_data, bin_2_data, bin_3_data, train_ix, test_ix, classifier, filename=None):
     # Train classifiers, and get ROC curve data
     print 'Bin: label'
 #    lr_fpr_label, lr_tpr_label, lr_auc_label = GetROCData(label_data, train_ix, test_ix, classifier)
@@ -107,6 +107,8 @@ def GraphROCs(label_data, bin_1_data, bin_2_data, bin_3_data, train_ix, test_ix,
     legends.append('Random Guess (AUC = %0.2f)' % (metrics.auc(diagonal_fpr, diagonal_tpr)))
     
     plt.legend(legends, title='Classifier Type', loc='lower right')
+    if filename:
+        plt.savefig(filename, bbox_inches='tight')
     plt.show()
 
 
