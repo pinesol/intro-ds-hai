@@ -38,14 +38,19 @@ def testData(data):
             assert np.isreal(data[column][index]), 'Data with Provider ID %i in column %s has non-numeric data: %s.' % (index, column, data[column][index])
 
 
-def mergeAllTheThingsForProxy(target_binning_func, proxy_binning_function):
+def mergeAllTheThingsForProxy(Target_binning_func, Proxy_binning_func, hai_2013_binning_func, hai_2012_binning_func, SCIPD =True, Spending = True, Volume = True  ):
     '''Function that creates the final table that will be sent for classification.'''
-    data = mergeHAITables(hai_2014_binning_func=target_binning_func, 
-                          hai_2013_binning_func=proxy_binning_function, 
-                          hai_2012_binning_func=target_binning_func)
-    data = mergeSCIPDataframes(data)
-    data = processSpendingData(data) #process and glom on spending DF
-    data = processVolumeData(data)
+    #data = mergeHAITables(hai_2014_binning_func=target_binning_func, 
+    #                      hai_2013_binning_func=proxy_binning_function, 
+    #                      hai_2012_binning_func=target_binning_func)
+
+    data = mergeHAITables_Proxy(Target_binning_func, Proxy_binning_func, hai_2013_binning_func, hai_2012_binning_func)
+    if SCIPD ==True:
+        data = mergeSCIPDataframes(data)
+    if Spending == True:
+        data = processSpendingData(data) #process and glom on spending DF
+    if Volume == True:
+        data = processVolumeData(data)
     
     # Make sure each function: 
     # 1) takes a dataframe as input, and returns a data frame with your columns left-joined in.
@@ -145,7 +150,7 @@ def mergeHAITables(hai_2014_binning_func, hai_2013_binning_func, hai_2012_binnin
 
 ############################################################
 
-def mergeHAITables_Proxy(Target_binning_func, Proxy_binning_func):
+def mergeHAITables_Proxy(Target_binning_func, Proxy_binning_func, hai_2013_binning_func, hai_2012_binning_func):
     '''Merges the three hospital acquired infection data frames into one that can be classified.
     The resulting data frame will be indexed by provider ID, have the location data for the
     hospital, and the HAI scores from all three years.
@@ -184,7 +189,7 @@ def mergeHAITables_Proxy(Target_binning_func, Proxy_binning_func):
 
     # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2012 = hai_data_cleanup.parseHAIboth('data/2012/Healthcare_Associated_Infections.csv', '2012')
-    hai_2012 = Target_binning_func(hai_2012)
+    hai_2012 = hai_2012_binning_func(hai_2012)
     # Renaming target column to reflect year
     hai_2012['Bin 2012'] = hai_2012['Bin']
     hai_2012_score = pd.DataFrame(hai_2012['Bin 2012'], index=hai_2012.index)
@@ -193,7 +198,8 @@ def mergeHAITables_Proxy(Target_binning_func, Proxy_binning_func):
 
     # Getting the 2012 data, stripping out only the HAI Score, converting the nulls to zeros.
     hai_2013 = hai_data_cleanup.parseHAIboth('data/2013/Healthcare_Associated_Infections.csv', '2013')
-    hai_2013 = Target_binning_func(hai_2013)
+    hai_2013 = hai_2013_binning_func(hai_2013)
+
     # Renaming target column to reflect year
     hai_2013['Bin 2013'] = hai_2013['Bin']
     hai_2013_score = pd.DataFrame(hai_2013['Bin 2013'], index=hai_2013.index)

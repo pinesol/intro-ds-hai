@@ -173,6 +173,38 @@ def testDataset():
     for score in sorted(score_to_columns_map):
         print score, score_to_columns_map[score]
 
+
+def GetROCDataProxy(X_train_test, X_holdout,Y_train_test, Y_holdout,Y_s_train_test, classifier):
+    print '-- Number of positives: Y train (Proxy variable)', sum(Y_s_train_test)
+    print '-- Number of positives: Y test (Target variable)', sum(Y_holdout)
+
+    classifier.fit(X_train_test, Y_s_train_test)
+    if hasattr(classifier, 'support_'):
+        print 'number of features:', len(X_train.columns.values)
+        print 'Useful features:', [col for col_used, col in zip(classifier.support_, X_train_test.columns.values) if col_used]
+    fpr, tpr, thresholds = metrics.roc_curve(Y_holdout, classifier.decision_function(X_holdout))
+    print '-- Number of ROC threshold values', len(thresholds)    
+    return fpr, tpr, metrics.auc(fpr, tpr)
+
+
+
+def GetmetricsData(data, train_ix, test_ix, classifier, meassure):
+    X, Y = data_utils.splitTrainAndTarget(data)
+    X_train, X_test = X.ix[train_ix], X.ix[test_ix]
+    Y_train, Y_test = Y.ix[train_ix], Y.ix[test_ix]
+    print '-- Number of positives: Y train', sum(Y_train)
+    print '-- Number of positives: Y test', sum(Y_test)
+    classifier = classifier.fit(X_train, Y_train)
+    if hasattr(classifier, 'support_'):
+        print 'number of features:', len(X_train.columns.values)
+        print 'Useful features:', [col for col_used, col in zip(classifier.support_, X_train.columns.values) if col_used]
+    temp = meassure(Y_test, classifier.predict(X_test))
+    #print '-- Number of ROC threshold values', len(thresholds)    
+    return temp
+
+
+
+
 # Plan, I update these functions to do the following:
 # Vary on different versions of the data (autoregressive, standard binning, different binning, w/general info, w/volume, etc.)
 # For each classifier, find best AUC, that's the best classifier+data pair, choose cutoff point best for recall somehow
